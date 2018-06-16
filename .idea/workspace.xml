@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_2_basic_typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_2_basic_typography.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_3_text_alignment_display.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_3_text_alignment_display.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2_2_basic_typography.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2_2_basic_typography.html">
+      <file leaf-file-name="2_3_text_alignment_display.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2_3_text_alignment_display.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="521">
-              <caret line="218" column="19" lean-forward="true" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
+              <caret line="179" column="30" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -46,6 +45,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/2_2_basic_typography.html" />
+        <option value="$PROJECT_DIR$/2_3_text_alignment_display.html" />
       </list>
     </option>
   </component>
@@ -59,8 +59,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="948" />
+    <option name="width" value="979" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -102,10 +102,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.2_3_text_alignment_display.html">
     <configuration name="2_2_basic_typography.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_2_basic_typography.html" />
+    <configuration name="2_3_text_alignment_display.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_3_text_alignment_display.html" />
+    <list>
+      <item itemvalue="JavaScript Debug.2_2_basic_typography.html" />
+      <item itemvalue="JavaScript Debug.2_3_text_alignment_display.html" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.2_3_text_alignment_display.html" />
         <item itemvalue="JavaScript Debug.2_2_basic_typography.html" />
       </list>
     </recent_temporary>
@@ -122,15 +128,15 @@
       <updated>1529135749580</updated>
       <workItem from="1529135750831" duration="28000" />
       <workItem from="1529135779519" duration="64000" />
-      <workItem from="1529135855754" duration="4187000" />
+      <workItem from="1529135855754" duration="5928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4279000" />
+    <option name="totallyTimeSpent" value="6020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="948" y="0" width="979" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3894967" />
@@ -142,7 +148,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28932893" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.15181518" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -163,8 +169,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2_2_basic_typography.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
+        <state relative-caret-position="2798">
           <caret line="218" column="19" lean-forward="true" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_3_text_alignment_display.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="179" column="30" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
         </state>
       </provider>
     </entry>

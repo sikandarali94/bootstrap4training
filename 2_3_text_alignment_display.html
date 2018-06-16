@@ -88,7 +88,10 @@
     <!--#####################START HERE######################-->
 
     <!-- JUSTIFY -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae asperiores dolorem accusamus dolor eligendi, unde adipisci
+    <!--
+    To justify text in Bootstrap we use the "text-justify" class as shown below.
+    -->
+    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae asperiores dolorem accusamus dolor eligendi, unde adipisci
       a odio, quas aperiam tempora earum delectus magnam quia veritatis in! Natus quibusdam dolores architecto magni rem!
       Error repellat esse dolorem dolore neque odit rem non accusamus eligendi ab nesciunt dicta voluptatibus velit, vel
       obcaecati quisquam optio reiciendis soluta tempora, voluptatum sapiente eos? Explicabo provident sit commodi blanditiis
@@ -100,59 +103,86 @@
     <br>
 
     <!-- ALIGNMENT -->
-    <p>Text aligned left</p>
-    <p>Text aligned center</p>
-    <p>Text aligned right</p>
+    <p class="text-left">Text aligned left</p>
+    <!--
+    For example, if we want center our text in Bootstrap, we use the "text-center" class as shown below.
+    -->
+    <p class="text-center">Text aligned center</p>
+    <p class="text-right">Text aligned right</p>
 
     <!-- RESPONSIVE ALIGN -->
-    <p>Right aligned on small or larger</p>
-    <p>Right aligned on medium or larger</p>
-    <p>Right aligned on large or larger</p>
-    <p>Right aligned on xl or larger</p>
+    <!--
+    For example, to align text right on small or larger screens we use the "text-sm-right" class as shown
+    below.
+    sm = small
+    md = medium
+    lg = large
+    xl = extra large
+    For the really small screens we want to use just the "text-left", "text-center" and "text-right" classes.
+    -->
+    <p class="text-sm-right">Right aligned on small or larger</p>
+    <p class="text-md-right">Right aligned on medium or larger</p>
+    <p class="text-lg-right">Right aligned on large or larger</p>
+    <p class="text-xl-right">Right aligned on xl or larger</p>
 
-    <p>Left aligned text on small or larger</p>
-    <p>Left aligned text on medium or larger</p>
-    <p>Left aligned text on large or wider</p>
-    <p>Left aligned text on extra large or wider</p>
+    <p class="text-sm-left">Left aligned text on small or larger</p>
+    <p class="text-md-left">Left aligned text on medium or larger</p>
+    <p class="text-lg-left">Left aligned text on large or wider</p>
+    <p class="text-xl-left">Left aligned text on extra large or wider</p>
 
-    <p>Center aligned text on small or larger</p>
-    <p>Center aligned text on medium or larger</p>
-    <p>Center aligned text on large or wider</p>
-    <p>Center aligned text on extra large or wider</p>
+    <p class="text-sm-center">Center aligned text on small or larger</p>
+    <p class="text-md-center">Center aligned text on medium or larger</p>
+    <p class="text-lg-center">Center aligned text on large or wider</p>
+    <p class="text-xl-center">Center aligned text on extra large or wider</p>
 
     <br>
     <br>
 
     <!-- VERTICAL ALIGNMENT -->
-    <span>baseline</span>
-    <span>top</span>
-    <span>bottom</span>
-    <span>middle</span>
-    <span>text-top</span>
-    <span>text-bottom</span>
+    <!--
+    For example, if we want to align vertically on the baseline, we use the "align-baseline" class as
+    shown below.
+    -->
+    <span class="align-baseline">baseline</span>
+    <span class="align-top">top</span>
+    <span class="align-bottom">bottom</span>
+    <span class="align-middle">middle</span>
+    <span class="align-text-top">text-top</span>
+    <span class="align-text-bottom">text-bottom</span>
 
     <br>
     <br>
 
     <!-- TURN BLOCK TO INLINE -->
-    <h1>Hello</h1>
-    <h1>Goodbye</h1>
+    <!--
+    To turn an element into an inline element, we use the "d-inline" class as shown below.
+    -->
+    <h1 class="d-inline">Hello</h1>
+    <h1 class="d-inline">Goodbye</h1>
 
     <br>
     <br>
 
     <!-- TURN INLINE TO BLOCK -->
-    <span>Block</span>
+    <!--
+    To turn an element into a block element, we use the "d-block" class as shown below.
+    -->
+    <span class="d-block">Block</span>
+    <span class="d-block">Me</span>
 
     <br>
     <br>
 
     <!-- INLINE BLOCK -->
-    <div>
+    <!--
+    To turn an element into an inline-block, we use the "d-inline-block" class as shown below.
+    Inline-block elements are like inline elements but they can have a width and a height.
+    -->
+    <div class="d-inline-block">
       <h3>Hello</h3>
       This is inline
     </div>
-    <div>
+    <div class="d-inline-block">
       <h3>Hello</h3>
       This is inline
     </div>
