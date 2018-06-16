@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!--
+1rem in default HTML is 16px.
+em does not go by the default HTML of 16px, but goes by the parent element font size.
+Bootstrap used more rem and em units which makes our website more responsive.
+-->
 <html lang="en">
 
 <head>
@@ -92,7 +97,12 @@
     <h2>Heading Two</h2>
     <h3>Heading Three</h3>
     <h4>Heading Four</h4>
-    <h5>Heading Five</h5>
+    <!--
+    In Bootstrap we can use classes to make heading styles e.g. class="h1" or class="h2".
+    In the example of: <h5 class="h1">Heading Five</h5> we keep the markup of h5 but we make
+    the h5 element look like a h1 element.
+    -->
+    <h5 class="h1">Heading Five</h5>
     <h6>Heading Six</h6>
 
     <br>
@@ -100,10 +110,14 @@
 
 
     <!-- DISPLAY CLASSES -->
-    <h1>Display 1</h1>
-    <h1>Display 2</h1>
-    <h1>Display 3</h1>
-    <h1>Display 4</h1>
+    <!--
+    We can use display classes in Bootstrap to make headings a little bit more prominent e.g. class="display-1"
+    or class="display-2"
+    -->
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
 
     <br>
     <br>
@@ -113,39 +127,62 @@
       voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae dolorum, dolor autem reiciendis sapiente.</p>
 
     <!-- LEAD -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam consequatur vero numquam
+    <!--
+    To make our paragraph more prominent we use the "lead" class as shown below.
+    -->
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam consequatur vero numquam
       voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae dolorum, dolor autem reiciendis sapiente.</p>
 
     <!-- MONOSPACE PARAGRAPH -->
-    <p>My monospace paragraph</p>
+    <!--
+    To give our paragraph a monospace look we use the "text-monospace" class as shown below.
+    -->
+    <p class="text-monospace">My monospace paragraph</p>
 
     <!-- STYLE CLASSES -->
-    <p>Bold Text</p>
-    <p>Normal Text</p>
-    <p>Italic Text</p>
+    <!--
+    For example, to make text bold in Bootstrap, we use the "font-weight-bold" class as shown below. This is so
+    we don't have to use the <strong> tag and change the markup of our HTML.
+    -->
+    <p class="font-weight-bold">Bold Text</p>
+    <p class="font-weight-normal">Normal Text</p>
+    <p class="font-italic">Italic Text</p>
 
     <!-- TEXT TRANSFORMS -->
-    <p>MAKE LOWERCASE</p>
-    <p>make uppercase</p>
-    <p>make capitalized</p>
+    <!--
+    For example, to make text lowercase in Bootstrap, we use the "text-lowercase" class as shown below.
+    -->
+    <p class="text-lowercase">MAKE LOWERCASE</p>
+    <p class="text-uppercase">make uppercase</p>
+    <p class="text-capitalize">make capitalized</p>
 
     <br>
     <br>
 
     <!-- BLOCKQUOTES -->
-    <blockquote>
+    <!--
+    To make text a blockquote in Bootstrap, we use the "blockquote" class as shown below.
+    -->
+    <blockquote class="blockquote">
       <p>This is a blockquote</p>
     </blockquote>
 
     <!-- BLOCKQUOTE RIGHT ALIGNED -->
-    <blockquote>
+    <!--
+    To align text to the right we the "text-right" class as shown below.
+    -->
+    <blockquote class="blockquote text-right">
       <p>This is a blockquote aligned right</p>
     </blockquote>
 
     <!-- BLOCKQUOTE WITH FOOTER -->
-    <blockquote>
+    <!--
+    To make a blockquote with a footer we structure it as shown below and use the "blockquote" and
+    "blockquote-footer" classes as shown below.
+    -->
+    <blockquote class="blockquote text-right">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer>Someone famous in
+      <footer class="blockquote-footer">Someone famous in
         <cite title="Source Title">Source Title</cite>
       </footer>
     </blockquote>
@@ -154,7 +191,10 @@
     <br>
 
     <!-- TEXT TRUNCATE -->
-    <div>
+    <!--
+    To truncate text to one line we use the "text-truncate" class as shown below.
+    -->
+    <div class="text-truncate">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellat nobis sunt qui consequatur architecto veritatis,
       iure odit, debitis pariatur perspiciatis? Asperiores facere veniam, totam ullam dignissimos voluptate atque! Eos, animi
       quos. Sint magni nulla provident et consequatur officia tempora!
@@ -164,7 +204,10 @@
     <br>
 
     <!-- LISTS -->
-    <ul>
+    <!--
+    To unstyle our list we use the "list-unstyled" class as shown below.
+    -->
+    <ul class="list-unstyled">
       <li>Lorem ipsum dolor sit amet.</li>
       <li>Lorem ipsum dolor sit amet.</li>
       <li>Lorem ipsum dolor sit amet.</li>
@@ -172,10 +215,14 @@
     </ul>
 
     <!-- INLINE LIST -->
-    <ul>
-      <li>Lorem ipsum</li>
-      <li>Lorem ipsum </li>
-      <li>Lorem ipsum </li>
+    <!--
+    To make our list inline -- meaning we make our list items horizontal -- we use the "list-inline" and
+    "list-inline-item" as shown below.
+    -->
+    <ul class="list-inline">
+      <li class="list-inline-item">Lorem ipsum</li>
+      <li class="list-inline-item">Lorem ipsum </li>
+      <li class="list-inline-item">Lorem ipsum </li>
     </ul>
   </div>
 
