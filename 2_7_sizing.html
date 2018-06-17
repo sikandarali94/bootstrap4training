@@ -88,59 +88,82 @@
         <!--##################START HERE####################-->
 
         <!-- WIDTH CLASSES -->
-        <div class="bg-success p-3">Width 25%</div>
-        <div class="bg-success p-3">Width 50%</div>
-        <div class="bg-success p-3">Width 75%</div>
-        <div class="bg-success p-3">Width 100%</div>
-        <div class="bg-success p-3">Width Auto</div>
+        <!--
+        For example, to make an element 25% width of its container, we use the "w-25" class as shown below.
+        -->
+        <div class="bg-success p-3 w-25">Width 25%</div>
+        <div class="bg-success p-3 w-50">Width 50%</div>
+        <div class="bg-success p-3 w-75">Width 75%</div>
+        <div class="bg-success p-3 w-100">Width 100%</div>
+        <div class="bg-success p-3 w-auto">Width Auto</div>
 
         <br>
         <br>
 
         <!-- HEIGHT CLASSES -->
-        <div>
-            <div class="bg-primary d-inline-block">Height 25%</div>
-            <div class="bg-primary d-inline-block">Height 50%</div>
-            <div class="bg-primary d-inline-block">Height 75%</div>
-            <div class="bg-primary d-inline-block">Height 100%</div>
-            <div class="bg-primary d-inline-block">Height Auto</div>
+        <div style="height:300px; border: 1px solid #333;">
+            <!--
+            For height classes to work in Bootstrap the parent element must have a height.
+            For example, to make an element 25% height of its container, we use the "h-25" class, as shown below.
+            -->
+            <div class="bg-primary d-inline-block h-25">Height 25%</div>
+            <div class="bg-primary d-inline-block h-50">Height 50%</div>
+            <div class="bg-primary d-inline-block h-75">Height 75%</div>
+            <div class="bg-primary d-inline-block h-100">Height 100%</div>
+            <div class="bg-primary d-inline-block h-auto">Height Auto</div>
         </div>
 
         <br>
         <br>
 
         <!-- BORDERS -->
-        <div class="p-3 mb-2 bg-light">Regular</div>
-        <div class="p-3 mb-2 bg-light">Border Top</div>
-        <div class="p-3 mb-2 bg-light">Border Bottom</div>
-        <div class="p-3 mb-2 bg-light">Border Right</div>
-        <div class="p-3 mb-2 bg-light">Border Left</div>
+        <!--
+        If we wanted to give an element a regular border around all four sides, we use the "border" class,
+        as shown below.
+        -->
+        <div class="p-3 mb-2 bg-light border">Regular</div>
+        <div class="p-3 mb-2 bg-light border-top">Border Top</div>
+        <div class="p-3 mb-2 bg-light border-bottom">Border Bottom</div>
+        <div class="p-3 mb-2 bg-light border-right">Border Right</div>
+        <div class="p-3 mb-2 bg-light border-left">Border Left</div>
 
         <br>
         <br>
 
         <!-- BORDER COLORS -->
-        <div class="p-3 mb-2 bg-light">Primary</div>
-        <div class="p-3 mb-2 bg-light">Secondary</div>
-        <div class="p-3 mb-2 bg-light">Success</div>
-        <div class="p-3 mb-2 bg-light">Info</div>
-        <div class="p-3 mb-2 bg-light">Warning</div>
-        <div class="p-3 mb-2 bg-light">Danger</div>
-        <div class="p-3 mb-2 bg-light">Light</div>
-        <div class="p-3 mb-2 bg-light">Dark</div>
-        <div class="p-3 mb-2 bg-light">White</div>
+        <!--
+        To give an element a regular border on all four sides and set the border with the primary color, we use the
+        "border" and "border-primary" classes, as shown below.
+        -->
+        <div class="p-3 mb-2 bg-light border border-primary">Primary</div>
+        <div class="p-3 mb-2 bg-light border border-secondary">Secondary</div>
+        <div class="p-3 mb-2 bg-light border border-success">Success</div>
+        <div class="p-3 mb-2 bg-light border border-info">Info</div>
+        <div class="p-3 mb-2 bg-light border border-warning">Warning</div>
+        <div class="p-3 mb-2 bg-light border border-danger">Danger</div>
+        <div class="p-3 mb-2 bg-light border border-light">Light</div>
+        <div class="p-3 mb-2 bg-light border border-dark">Dark</div>
+        <div class="p-3 mb-2 bg-light border border-white">White</div>
 
         <br>
         <br>
 
         <!-- BORDER RADIUS -->
-        <div class="p-3 mb-2 bg-light">Rounded</div>
-        <div class="p-3 mb-2 bg-light">Rounded Top</div>
-        <div class="p-3 mb-2 bg-light">Rounded Bottom</div>
-        <div class="p-3 mb-2 bg-light">Rounded Right</div>
-        <div class="p-3 mb-2 bg-light">Rounded Left</div>
-        <div class="p-3 mb-2 bg-light">Rounded Circle</div>
-        <div class="p-3 mb-2 bg-light">Dark</div>
+        <!--
+        To give an element a rounded border on all sides, we use the "border" and "rounded" classes, as shown
+        below. We can also give the border a color by adding, for example, a "border-success" class, as shown below.
+        -->
+        <div class="p-3 mb-2 bg-light border rounded border-success">Rounded</div>
+        <div class="p-3 mb-2 bg-light border rounded-top">Rounded Top</div>
+        <div class="p-3 mb-2 bg-light border rounded-bottom">Rounded Bottom</div>
+        <div class="p-3 mb-2 bg-light border rounded-right">Rounded Right</div>
+        <div class="p-3 mb-2 bg-light border rounded-left">Rounded Left</div>
+        <div class="p-3 mb-2 bg-light w-25 border rounded-circle">Rounded Circle</div>
+        <!--
+        If an element was rounded by default and we wanted to take it away, we can use the "rounded-0" class,
+        as shown below.
+        -->
+        <div class="p-3 mb-2 bg-light border rounded-0">Dark</div>
 
     </div>
     <!-- ./container -->
