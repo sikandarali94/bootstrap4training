@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/2_5_colors_background.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_5_colors_background.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_6_spacing.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_6_spacing.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2_5_colors_background.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2_5_colors_background.html">
+      <file leaf-file-name="2_6_spacing.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2_6_spacing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="172" column="50" selection-start-line="172" selection-start-column="50" selection-end-line="172" selection-end-column="50" />
+            <state relative-caret-position="413">
+              <caret line="194" column="24" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -48,6 +48,7 @@
         <option value="$PROJECT_DIR$/2_3_text_alignment_display.html" />
         <option value="$PROJECT_DIR$/2_4_floats_position.html" />
         <option value="$PROJECT_DIR$/2_5_colors_background.html" />
+        <option value="$PROJECT_DIR$/2_6_spacing.html" />
       </list>
     </option>
   </component>
@@ -104,19 +105,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.2_5_colors_background.html">
+  <component name="RunManager" selected="JavaScript Debug.2_6_spacing.html">
     <configuration name="2_2_basic_typography.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_2_basic_typography.html" />
     <configuration name="2_3_text_alignment_display.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_3_text_alignment_display.html" />
     <configuration name="2_4_floats_position.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_4_floats_position.html" />
     <configuration name="2_5_colors_background.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_5_colors_background.html" />
+    <configuration name="2_6_spacing.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_6_spacing.html" />
     <list>
       <item itemvalue="JavaScript Debug.2_2_basic_typography.html" />
       <item itemvalue="JavaScript Debug.2_3_text_alignment_display.html" />
       <item itemvalue="JavaScript Debug.2_4_floats_position.html" />
       <item itemvalue="JavaScript Debug.2_5_colors_background.html" />
+      <item itemvalue="JavaScript Debug.2_6_spacing.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.2_6_spacing.html" />
         <item itemvalue="JavaScript Debug.2_5_colors_background.html" />
         <item itemvalue="JavaScript Debug.2_4_floats_position.html" />
         <item itemvalue="JavaScript Debug.2_3_text_alignment_display.html" />
@@ -139,12 +143,12 @@
       <workItem from="1529135855754" duration="6202000" />
       <workItem from="1529208207142" duration="1439000" />
       <workItem from="1529209659365" duration="89000" />
-      <workItem from="1529209761228" duration="3379000" />
+      <workItem from="1529209761228" duration="5134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11201000" />
+    <option name="totallyTimeSpent" value="12956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -222,8 +226,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2_5_colors_background.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="172" column="50" selection-start-line="172" selection-start-column="50" selection-end-line="172" selection-end-column="50" />
+        <state relative-caret-position="391">
+          <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_6_spacing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="194" column="24" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
         </state>
       </provider>
     </entry>
