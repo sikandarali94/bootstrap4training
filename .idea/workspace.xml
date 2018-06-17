@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/2_3_text_alignment_display.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_3_text_alignment_display.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_4_floats_position.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_4_floats_position.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,12 +27,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="2_3_text_alignment_display.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2_3_text_alignment_display.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="2_4_floats_position.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2_4_floats_position.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="179" column="30" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
+            <state relative-caret-position="459">
+              <caret line="163" column="107" selection-start-line="163" selection-start-column="107" selection-end-line="163" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -46,6 +47,7 @@
       <list>
         <option value="$PROJECT_DIR$/2_2_basic_typography.html" />
         <option value="$PROJECT_DIR$/2_3_text_alignment_display.html" />
+        <option value="$PROJECT_DIR$/2_4_floats_position.html" />
       </list>
     </option>
   </component>
@@ -59,8 +61,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="948" />
-    <option name="width" value="979" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,27 +70,14 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Bootstrap4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bootstrap4" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -102,15 +91,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.2_3_text_alignment_display.html">
+  <component name="RunManager" selected="JavaScript Debug.2_4_floats_position.html">
     <configuration name="2_2_basic_typography.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_2_basic_typography.html" />
     <configuration name="2_3_text_alignment_display.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_3_text_alignment_display.html" />
+    <configuration name="2_4_floats_position.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_4_floats_position.html" />
     <list>
       <item itemvalue="JavaScript Debug.2_2_basic_typography.html" />
       <item itemvalue="JavaScript Debug.2_3_text_alignment_display.html" />
+      <item itemvalue="JavaScript Debug.2_4_floats_position.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.2_4_floats_position.html" />
         <item itemvalue="JavaScript Debug.2_3_text_alignment_display.html" />
         <item itemvalue="JavaScript Debug.2_2_basic_typography.html" />
       </list>
@@ -128,15 +120,18 @@
       <updated>1529135749580</updated>
       <workItem from="1529135750831" duration="28000" />
       <workItem from="1529135779519" duration="64000" />
-      <workItem from="1529135855754" duration="5928000" />
+      <workItem from="1529135855754" duration="6202000" />
+      <workItem from="1529208207142" duration="1439000" />
+      <workItem from="1529209659365" duration="89000" />
+      <workItem from="1529209761228" duration="779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6020000" />
+    <option name="totallyTimeSpent" value="8601000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="948" y="0" width="979" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3894967" />
@@ -148,9 +143,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28932893" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25838926" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.15181518" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.15100671" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -167,6 +162,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2_4_floats_position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2875">
+          <caret line="125" column="65" selection-start-line="125" selection-start-column="65" selection-end-line="125" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_4_floats_position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2875">
+          <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_3_text_alignment_display.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4094">
+          <caret line="178" column="90" selection-start-line="178" selection-start-column="90" selection-end-line="178" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2_2_basic_typography.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2798">
@@ -176,8 +192,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2_3_text_alignment_display.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="179" column="30" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
+        <state relative-caret-position="161">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_4_floats_position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="163" column="107" selection-start-line="163" selection-start-column="107" selection-end-line="163" selection-end-column="107" />
         </state>
       </provider>
     </entry>
