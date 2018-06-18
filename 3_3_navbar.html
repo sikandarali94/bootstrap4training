@@ -87,49 +87,225 @@
     <!--##################START HERE###################-->
 
     <!-- SIMPLE NAVBAR -->
-    <nav>
-        <div>
-            <a href="#">Navbar</a>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
+    <!--
+    To make a simple navbar follow the structure and classes as shown below.
+    navbar-expand-sm does not collaps the navbar items into a single menu item but lists those items vertically,
+    rather than horizontally.
+    -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+        <!--
+        It's a good idea to have a container for the navbar, because if the screen is very large and we don't have
+        a container than the logo and menu items are separated way too far from each other. The class="container"
+        makes sure that the container has a maximum width (max-width is 1140px for screens larger than 1200px) so
+        the items are not too far separated from each other on larger screens.
+        -->
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
                 </li>
-                <li>
-                    <a href="#">About</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
                 </li>
-                <li>
-                    <a href="#">Services</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
                 </li>
-                <li>
-                    <a href="#">Contact</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- NAVBAR WITH RESPONSIVE TOGGLE -->
-
+    <!--
+    Follow the structure below to create a navbar with a collapsable menu into a single menu item.
+    -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <!--
+            This button is what is going to toggle on or off the collapsed nav bar. We can make the data-target
+            whatever we like. This is because we will use the data-target ID to place it on the container around
+            the navbar navigation, as shown below.
+            -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- NAVBAR WITH FORM -->
-
+    <!--
+    To make a navbar with a form element, we should follow the structure below.
+    -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav2">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <!--
+                This is where we create the form element with the necessary Bootstrap classes in the navbar.
+                To align an element on the form to the left, for example, we use the "ml-auto" class, as shown
+                below.
+                -->
+                <form class="form-inline">
+                    <input type="text" class="form-control mr-2" placeholder="Search">
+                    <button class="btn btn-outline-success">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
     <!-- NAVBAR WITH DROPDOWN -->
-
-
+    <!--
+    To make a navbar with a dropdown, we should follow the structure below.
+    -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <!--
+                Below is how we create a dropdown menu item with all the necessary Bootstrap classes.
+                -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Link 1</a>
+                        <a href="#" class="dropdown-item">Link 2</a>
+                        <a href="#" class="dropdown-item">Link 3</a>
+                        <a href="#" class="dropdown-item">Link 4</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <!-- COLORS -->
-
-
+    <!--
+    When we have a dark background, we must make sure to use the navbar-dark. navbar-dark makes the text light.
+    -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success mb-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <br>
     <br>
 
     <!-- FIXED TOP -->
-
+    <!--
+    For example, to fix a navbar to the top we use the "fixed-top" class, as shown below.
+    -->
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Navbar Fixed Top</a>
+    </nav>
 
     <!-- FIXED BOTTOM -->
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Navbar Fixed Bottom</a>
+    </nav>
 
-
-    <!-- FIXED TOP -->
-
+    <!-- STICKY TOP -->
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Navbar Sticky Top</a>
+    </nav>
 
     <br>
     <br>
@@ -137,45 +313,125 @@
     <div class="container">
 
         <!-- NAVS -->
-        <ul>
-            <li>
-                <a href="#">Link 1</a>
+        <!--
+        To make a simple inline navigation follow the structure and classes below.
+        -->
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
             </li>
-            <li>
-                <a href="#">Link 2</a>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 2</a>
             </li>
-            <li>
-                <a href="#">Link 3</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
             </li>
-            <li>
-                <a href="#">Link 4</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
             </li>
         </ul>
 
 
         <!-- HORIZONTAL ALIGN -->
-
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
 
         <!-- RIGHT ALIGN -->
-
+        <ul class="nav nav-pills justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
 
         <br>
         <br>
 
         <!-- VERTICAL -->
-
+        <!--
+        To make a navigation vertical we use the "flex-column" class, as shown below.
+        -->
+        <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
 
         <br>
         <br>
 
         <!-- FILL & JUSTIFY -->
-
+        <ul class="nav nav-fill nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
 
         <br>
         <br>
 
         <!-- WITH DROPDOWNS -->
-
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 2</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Link 1</a>
+                    <a href="#" class="dropdown-item">Link 2</a>
+                    <a href="#" class="dropdown-item">Link 3</a>
+                    <a href="#" class="dropdown-item">Link 4</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
 
 
     </div>
