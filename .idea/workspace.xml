@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_8_breakpoints.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_8_breakpoints.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_2_buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_2_buttons.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2_8_breakpoints.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2_8_breakpoints.html">
+      <file leaf-file-name="3_2_buttons.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3_2_buttons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1242">
-              <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+            <state relative-caret-position="261">
+              <caret line="253" column="29" lean-forward="true" selection-start-line="253" selection-start-column="29" selection-end-line="253" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -52,6 +53,7 @@
         <option value="$PROJECT_DIR$/2_6_spacing.html" />
         <option value="$PROJECT_DIR$/2_7_sizing.html" />
         <option value="$PROJECT_DIR$/2_8_breakpoints.html" />
+        <option value="$PROJECT_DIR$/3_2_buttons.html" />
       </list>
     </option>
   </component>
@@ -74,27 +76,14 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Bootstrap4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bootstrap4" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -108,26 +97,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.2_7_sizing.html">
-    <configuration name="2_3_text_alignment_display.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_3_text_alignment_display.html" />
+  <component name="RunManager" selected="JavaScript Debug.3_2_buttons.html">
     <configuration name="2_4_floats_position.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_4_floats_position.html" />
     <configuration name="2_5_colors_background.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_5_colors_background.html" />
     <configuration name="2_6_spacing.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_6_spacing.html" />
     <configuration name="2_7_sizing.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_7_sizing.html" />
+    <configuration name="3_2_buttons.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_2_buttons.html" />
     <list>
-      <item itemvalue="JavaScript Debug.2_3_text_alignment_display.html" />
       <item itemvalue="JavaScript Debug.2_4_floats_position.html" />
       <item itemvalue="JavaScript Debug.2_5_colors_background.html" />
       <item itemvalue="JavaScript Debug.2_6_spacing.html" />
       <item itemvalue="JavaScript Debug.2_7_sizing.html" />
+      <item itemvalue="JavaScript Debug.3_2_buttons.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.3_2_buttons.html" />
         <item itemvalue="JavaScript Debug.2_7_sizing.html" />
         <item itemvalue="JavaScript Debug.2_6_spacing.html" />
         <item itemvalue="JavaScript Debug.2_5_colors_background.html" />
         <item itemvalue="JavaScript Debug.2_4_floats_position.html" />
-        <item itemvalue="JavaScript Debug.2_3_text_alignment_display.html" />
       </list>
     </recent_temporary>
   </component>
@@ -147,12 +136,13 @@
       <workItem from="1529208207142" duration="1439000" />
       <workItem from="1529209659365" duration="89000" />
       <workItem from="1529209761228" duration="6190000" />
-      <workItem from="1529263937852" duration="3207000" />
+      <workItem from="1529263937852" duration="6551000" />
+      <workItem from="1529350601418" duration="2855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17219000" />
+    <option name="totallyTimeSpent" value="23418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -167,7 +157,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989059" visible="true" weight="0.25838926" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4989059" visible="true" weight="0.25838926" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.15100671" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -186,13 +176,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/3_2_buttons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3082">
+          <caret line="134" column="40" selection-start-line="134" selection-start-column="40" selection-end-line="134" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2_7_sizing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -256,16 +250,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="168" column="24" lean-forward="true" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2_8_breakpoints.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1242">
-          <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+        <state relative-caret-position="2944">
+          <caret line="122" column="22" lean-forward="true" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_2_buttons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="253" column="29" lean-forward="true" selection-start-line="253" selection-start-column="29" selection-end-line="253" selection-end-column="29" />
         </state>
       </provider>
     </entry>
