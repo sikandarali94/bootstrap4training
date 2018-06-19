@@ -89,100 +89,135 @@
         <!--####################START HERE######################-->
 
         <!-- ALERTS -->
-        <div>
+        <!--
+        For example, to make an alert text styled in the primary contextual color, we use "alert" and "alert-primary"
+        classes, as shown below.
+        -->
+        <div class="alert alert-primary">
             <strong>Primary</strong> Blog post added
         </div>
 
-        <div>
+        <div class="alert alert-secondary">
             <strong>Secondary</strong> Blog post added
         </div>
 
-        <div>
+        <div class="alert alert-success">
             <strong>Success</strong> Blog post added
         </div>
 
-        <div>
+        <div class="alert alert-danger">
             <strong>Danger</strong> Please check the log files
         </div>
 
-        <div>
+        <div class="alert alert-info">
             <strong>Info</strong> You have a new message
         </div>
 
-        <div>
+        <div class="alert alert-warning">
             <strong>Warning</strong> Please check the log files
         </div>
 
-        <div>
+        <div class="alert alert-light">
             <strong>Light</strong> Please check the log files
         </div>
 
-        <div>
+        <div class="alert alert-dark">
             <strong>Dark</strong> Please check the log files
         </div>
 
 
         <!-- DISMISSABLE ALERT -->
-        <div>
-            <button type="button">
+        <!--
+        To create an alert that we can dismiss by closing it with a button click, we should use
+        class="alert-dismissible", class="close" and data-dismiss="alert" as shown below.
+        -->
+        <div class="alert alert-success alert-dismissible">
+            <button class="close" type="button" data-dismiss="alert">
                 <span>&times;</span>
             </button>
-            <strong>Dismissable</strong> Blog post added
+            <strong>Dismissible</strong> Blog post added
         </div>
 
         <!-- EXTRA CONTENT -->
-        <div>
-            <h4>Congrats!</h4>
+        <!--
+        To create a large alert message with extra content, we should use "alert-heading" class and follow the
+        structure below.
+        -->
+        <div class="alert alert-success">
+            <h4 class="alert-heading">Congrats!</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos eius, sit quo assumenda totam commodi
                 ipsum saepe molestias eligendi exercitationem repudiandae qui facilis deserunt non, harum ab quam? Cumque</p>
             <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, odio?</p>
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, odio?</p>
         </div>
 
         <br>
         <br>
 
         <!-- PROGRESS BARS -->
-        <div>
-            <div></div>
+        <!--
+        To create a progress bar we should use class="progress", class="progress-bar" and style="width:[percentage]"
+        and follow the structure, as shown below.
+        -->
+        <div class="progress">
+            <div class="progress-bar" style="width:35%;"></div>
         </div>
         <br>
-        <div>
-            <div></div>
+        <div class="progress">
+            <!--
+            Here we can place text on the progress bar, as shown below.
+            -->
+            <div class="progress-bar" style="width:35%;">35%</div>
         </div>
         <br>
-        <div>
-            <div></div>
+        <div class="progress">
+            <!--
+            Here we changed the color of the progress bar from blue to green using the "bg-success" class, as
+            shown below.
+            -->
+            <div class="progress-bar bg-success" style="width:55%;">55%</div>
         </div>
         <br>
-        <div>
-            <div></div>
+        <div class="progress">
+            <div class="progress-bar bg-info" style="width:75%;">75%</div>
         </div>
         <br>
-        <div>
-            <div></div>
+        <div class="progress">
+            <div class="progress-bar bg-warning" style="width:100%;">100%</div>
         </div>
         <br>
         <!-- HEIGHT -->
-        <div>
-            <div></div>
+        <!--
+        Here we changed the height of the progress bar to 1px using style="height:1px", as shown below.
+        -->
+        <div class="progress" style="height:1px">
+            <div class="progress-bar bg-success" style="width:75%;"></div>
         </div>
         <br>
         <!-- STRIPED -->
-        <div>
-            <div></div>
+        <!--
+        Here we changed the style of the progress bar to striped using class="progress-bar-striped", as shown below.
+        -->
+        <div class="progress">
+            <div class="progress-bar bg-danger progress-bar-striped" style="width:35%;">35%</div>
         </div>
         <br>
         <!-- ANIMATED -->
-        <div>
-            <div></div>
+        <!--
+        To make a progress bar animated, we use the "progress-bar-animated" class, as shown below.
+        -->
+        <div class="progress">
+            <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:35%;"></div>
         </div>
         <br>
         <!-- MULTIPLE BARS -->
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <!--
+        To make multiple progress bars together, we should follow the structure below.
+        -->
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width:25%;">25%</div>
+            <div class="progress-bar bg-warning" style="width:25%;">25%</div>
+            <div class="progress-bar bg-danger" style="width:25%;">25%</div>
         </div>
 
     </div>
