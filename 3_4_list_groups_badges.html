@@ -88,74 +88,94 @@
         <!--################START HERE##################-->
 
         <!-- LIST GROUP -->
-        <ul>
-            <li>My List Item One</li>
-            <li>My List Item Two</li>
-            <li>My List Item Three</li>
-            <li>My List Item Four</li>
-            <li>My List Item Five</li>
+        <!--
+        To make a list group -- which is just a fancy unordered list -- we use the "list-group" and "list-group-item"
+        classes, as shown below.
+        -->
+        <ul class="list-group mb-5">
+            <li class="list-group-item">My List Item One</li>
+            <li class="list-group-item active">My List Item Two</li>
+            <li class="list-group-item">My List Item Three</li>
+            <li class="list-group-item">My List Item Four</li>
+            <li class="list-group-item">My List Item Five</li>
         </ul>
 
         <!-- LIST GROUP WITH LINKS -->
-        <ul>
-            <a href="#">My List Item One</a>
-            <a href="#">My List Item Two</a>
-            <a href="#">My List Item Three</a>
-            <a href="#">My List Item Four</a>
-            <a href="#">My List Item Five</a>
+        <ul class="list-group mb-5">
+            <a class="list-group-item" href="#">My List Item One</a>
+            <a class="list-group-item" href="#">My List Item Two</a>
+            <a class="list-group-item active" href="#">My List Item Three</a>
+            <a class="list-group-item" href="#">My List Item Four</a>
+            <a class="list-group-item" href="#">My List Item Five</a>
         </ul>
 
 
         <!-- CONTEXTUAL CLASSES -->
-        <ul>
-            <li>Regular List Item</li>
-            <li>Primary List Item</li>
-            <li>Secondary List Item</li>
-            <li>Success List Item</li>
-            <li>Info List Item</li>
-            <li>Warning List Item</li>
-            <li>Danger List Item</li>
-            <li>Light List Item</li>
-            <li>Dark List Item</li>
+        <ul class="list-group mb-5">
+            <li class="list-group-item">Regular List Item</li>
+            <!--
+            To have a list item with a contextual color like primary we use class="list-group-item-primary", as
+            shown below.
+            -->
+            <li class="list-group-item list-group-item-primary">Primary List Item</li>
+            <li class="list-group-item list-group-item-secondary">Secondary List Item</li>
+            <li class="list-group-item list-group-item-success">Success List Item</li>
+            <li class="list-group-item list-group-item-info">Info List Item</li>
+            <li class="list-group-item list-group-item-warning">Warning List Item</li>
+            <li class="list-group-item list-group-item-danger">Danger List Item</li>
+            <li class="list-group-item list-group-item-light">Light List Item</li>
+            <li class="list-group-item list-group-item-dark">Dark List Item</li>
         </ul>
 
         <!-- FLUSH LIST GROUP -->
-        <ul>
-            <li>My List Item One</li>
-            <li>My List Item Two</li>
-            <li>My List Item Three</li>
-            <li>My List Item Four</li>
-            <li>My List Item Five</li>
+        <!--
+        To create a flush list group -- meaning a list group without a border all around -- we use the
+        "list-group" and "list-group-flush" classes, as shown below.
+        -->
+        <ul class="list-group list-group-flush mb-5">
+            <li class="list-group-item">My List Item One</li>
+            <li class="list-group-item">My List Item Two</li>
+            <li class="list-group-item">My List Item Three</li>
+            <li class="list-group-item active">My List Item Four</li>
+            <li class="list-group-item">My List Item Five</li>
         </ul>
 
 
         <!-- BADGE -->
-        <ul>
-            <li>My List Item One</li>
-            <li>My List Item Two</li>
-            <li>My List Item Three</li>
-            <li>My List Item Four</li>
-            <li>My List Item Five</li>
+        <ul class="list-group mb-5">
+            <li class="list-group-item">My List Item One</li>
+            <!--
+            To make a badge in a list group item, we should follow the li and span structure below.
+            -->
+            <li class="list-group-item d-flex justify-content-between align-items-center">My List Item Two
+                <span class="badge badge-primary">30</span>
+            </li>
+            <li class="list-group-item">My List Item Three</li>
+            <li class="list-group-item">My List Item Four</li>
+            <li class="list-group-item">My List Item Five</li>
         </ul>
 
         <!-- BREADCRUMB -->
-        <ol>
-            <li>Home</li>
+        <!--
+        To create breadcrumbs list please follow the structure and classes implemented below.
+        -->
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active">Home</li>
         </ol>
-        <ol>
-            <li>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
                 <a href="#">Home</a>
             </li>
-            <li>Users</li>
+            <li class="breadcrumb-item active">Users</li>
         </ol>
-        <ol>
-            <li>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
                 <a href="#">Home</a>
             </li>
-            <li>
+            <li class="breadcrumb-item">
                 <a href="#">Users</a>
             </li>
-            <li>Brad</li>
+            <li class="breadcrumb-item active">Brad</li>
         </ol>
 
     </div>

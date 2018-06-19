@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/3_3_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_3_navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_4_list_groups_badges.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_4_list_groups_badges.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3_3_navbar.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3_3_navbar.html">
+      <file leaf-file-name="3_4_list_groups_badges.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3_4_list_groups_badges.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="426" column="17" selection-start-line="426" selection-start-column="17" selection-end-line="426" selection-end-column="17" />
+            <state relative-caret-position="137">
+              <caret line="168" column="45" selection-start-line="168" selection-start-column="45" selection-end-line="168" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -53,6 +53,7 @@
         <option value="$PROJECT_DIR$/2_8_breakpoints.html" />
         <option value="$PROJECT_DIR$/3_2_buttons.html" />
         <option value="$PROJECT_DIR$/3_3_navbar.html" />
+        <option value="$PROJECT_DIR$/3_4_list_groups_badges.html" />
       </list>
     </option>
   </component>
@@ -149,12 +150,12 @@
       <workItem from="1529209659365" duration="89000" />
       <workItem from="1529209761228" duration="6190000" />
       <workItem from="1529263937852" duration="6551000" />
-      <workItem from="1529350601418" duration="9774000" />
+      <workItem from="1529350601418" duration="14280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30337000" />
+    <option name="totallyTimeSpent" value="34843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -281,8 +282,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3_3_navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="367">
           <caret line="426" column="17" selection-start-line="426" selection-start-column="17" selection-end-line="426" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_4_list_groups_badges.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="168" column="45" selection-start-line="168" selection-start-column="45" selection-end-line="168" selection-end-column="45" />
         </state>
       </provider>
     </entry>
