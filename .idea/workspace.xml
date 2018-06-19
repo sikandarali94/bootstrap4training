@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_5_forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_5_forms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_6_input_groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_6_input_groups.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3_5_forms.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3_5_forms.html">
+      <file leaf-file-name="3_6_input_groups.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3_6_input_groups.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="223" column="110" selection-start-line="223" selection-start-column="110" selection-end-line="223" selection-end-column="110" />
+            <state relative-caret-position="184">
+              <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
             </state>
           </provider>
         </entry>
@@ -56,6 +55,7 @@
         <option value="$PROJECT_DIR$/3_3_navbar.html" />
         <option value="$PROJECT_DIR$/3_4_list_groups_badges.html" />
         <option value="$PROJECT_DIR$/3_5_forms.html" />
+        <option value="$PROJECT_DIR$/3_6_input_groups.html" />
       </list>
     </option>
   </component>
@@ -112,26 +112,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.3_5_forms.html">
-    <configuration name="2_5_colors_background.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_5_colors_background.html" />
+  <component name="RunManager" selected="JavaScript Debug.3_6_input_groups.html">
     <configuration name="2_6_spacing.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_6_spacing.html" />
     <configuration name="2_7_sizing.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_7_sizing.html" />
     <configuration name="3_2_buttons.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_2_buttons.html" />
     <configuration name="3_5_forms.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_5_forms.html" />
+    <configuration name="3_6_input_groups.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_6_input_groups.html" />
     <list>
-      <item itemvalue="JavaScript Debug.2_5_colors_background.html" />
       <item itemvalue="JavaScript Debug.2_6_spacing.html" />
       <item itemvalue="JavaScript Debug.2_7_sizing.html" />
       <item itemvalue="JavaScript Debug.3_2_buttons.html" />
       <item itemvalue="JavaScript Debug.3_5_forms.html" />
+      <item itemvalue="JavaScript Debug.3_6_input_groups.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.3_6_input_groups.html" />
         <item itemvalue="JavaScript Debug.3_5_forms.html" />
         <item itemvalue="JavaScript Debug.3_2_buttons.html" />
         <item itemvalue="JavaScript Debug.2_7_sizing.html" />
         <item itemvalue="JavaScript Debug.2_6_spacing.html" />
-        <item itemvalue="JavaScript Debug.2_5_colors_background.html" />
       </list>
     </recent_temporary>
   </component>
@@ -153,12 +153,12 @@
       <workItem from="1529209761228" duration="6190000" />
       <workItem from="1529263937852" duration="6551000" />
       <workItem from="1529350601418" duration="14497000" />
-      <workItem from="1529442946310" duration="3286000" />
+      <workItem from="1529442946310" duration="5643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38346000" />
+    <option name="totallyTimeSpent" value="40703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -175,7 +175,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989059" weight="0.25838926" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.15100671" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.15100671" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -306,8 +306,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3_5_forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="223" column="110" selection-start-line="223" selection-start-column="110" selection-end-line="223" selection-end-column="110" />
+        <state relative-caret-position="253">
+          <caret line="227" column="32" lean-forward="true" selection-start-line="227" selection-start-column="32" selection-end-line="227" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_6_input_groups.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
         </state>
       </provider>
     </entry>

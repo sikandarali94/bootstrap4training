@@ -88,86 +88,116 @@
         <!--####################START HERE#####################-->
 
         <!-- BASIC INPUT GROUPS -->
-        <div>
-            <div>
-                <span>@</span>
+        <!--
+        Just like we have the "form-group" class, we have input groups which kind of groups together fields
+        and whatever else we want like symbols or text.
+        -->
+        <div class="input-group mb-3">
+            <!--
+            To prepend a symbol or a text to a form input, we use "input-group-prepend" and "input-group-text"
+            classes, as shown below.
+            -->
+            <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
             </div>
-            <input type="text" placeholder="Username">
+            <input class="form-control" type="text" placeholder="Username">
         </div>
 
         <br>
 
-        <div>
-            <input type="text" placeholder="Username">
-            <div>
-                <span>@something.com</span>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Username">
+            <!--
+            To append a symbol or a text to a form input, we use "input-group-append" and "input-group-text"
+            classes, as shown below.
+            -->
+            <div class="input-group-append">
+                <span class="input-group-text">@something.com</span>
             </div>
         </div>
 
         <br>
 
         <label for="basic-url">Custom URL</label>
-        <div>
-            <div>
-                <span>https://something.com/member/</span>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">https://something.com/member/</span>
             </div>
-            <input type="text">
+            <input id="basic-url" type="text" class="form-control">
         </div>
 
         <br>
-
-        <div>
-            <div>
-                <span>$</span>
+        <!--
+        We can append and prepend a symbol or a text both, as shown below.
+        -->
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">$</span>
             </div>
-            <input type="text">
-            <div>
-                <span>.00</span>
+            <input class="form-control" type="text">
+            <div class="input-group-append">
+                <span class="input-group-text">.00</span>
             </div>
         </div>
 
         <br>
 
         <!-- CHECKBOX -->
-        <div>
-            <div>
-                <div>
+        <!--
+        We can prepend or append a form input like a checkbox, as shown below.
+        -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <!--
+                For a form input like a checkbox we should put "input-group-text" on the div containing the form
+                input, rather than on the form input itself, as shown below.
+                -->
+                <div class="input-group-text">
                     <input type="checkbox">
                 </div>
             </div>
-            <input type="text">
+            <input class="form-control" type="text">
         </div>
 
         <br>
 
         <!-- RADIO -->
-        <div>
-            <div>
-                <div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
                     <input type="radio">
                 </div>
             </div>
-            <input type="text">
+            <input class="form-control" type="text">
         </div>
 
         <br>
 
         <!-- MULTIPLE INPUTS -->
-        <div>
-            <div>
-                <span id="">Name & Email</span>
+        <!--
+        We can group form inputs together using input groups, as shown below.
+        -->
+        <div class="input-group">
+            <!--
+            Before Bootstrap 4, it used to be called "input-group-addon" rather than "input-group-prepend".
+            -->
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="">Name & Email</span>
             </div>
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email">
+            <input class="form-control" type="text" placeholder="Full Name">
+            <input class="form-control" type="email" placeholder="Email">
         </div>
 
         <br>
 
         <!-- BUTTON ADDONS -->
-        <div>
-            <input type="text" placeholder="Find By Name...">
-            <div>
-                <button type="button">Search</button>
+        <!--
+        We can even append a button to an input field using input groups, as shown below.
+        -->
+        <div class="input-group mb-3">
+            <input class="form-control" type="text" placeholder="Find By Name...">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Search</button>
             </div>
         </div>
 
