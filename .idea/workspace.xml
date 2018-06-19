@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/3_4_list_groups_badges.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_4_list_groups_badges.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_5_forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_5_forms.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3_4_list_groups_badges.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3_4_list_groups_badges.html">
+      <file leaf-file-name="3_5_forms.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3_5_forms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="168" column="45" selection-start-line="168" selection-start-column="45" selection-end-line="168" selection-end-column="45" />
+            <state relative-caret-position="368">
+              <caret line="223" column="110" selection-start-line="223" selection-start-column="110" selection-end-line="223" selection-end-column="110" />
             </state>
           </provider>
         </entry>
@@ -54,6 +55,7 @@
         <option value="$PROJECT_DIR$/3_2_buttons.html" />
         <option value="$PROJECT_DIR$/3_3_navbar.html" />
         <option value="$PROJECT_DIR$/3_4_list_groups_badges.html" />
+        <option value="$PROJECT_DIR$/3_5_forms.html" />
       </list>
     </option>
   </component>
@@ -93,7 +95,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Angular/angulartraining" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -110,26 +112,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.3_2_buttons.html">
-    <configuration name="2_4_floats_position.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_4_floats_position.html" />
+  <component name="RunManager" selected="JavaScript Debug.3_5_forms.html">
     <configuration name="2_5_colors_background.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_5_colors_background.html" />
     <configuration name="2_6_spacing.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_6_spacing.html" />
     <configuration name="2_7_sizing.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/2_7_sizing.html" />
     <configuration name="3_2_buttons.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_2_buttons.html" />
+    <configuration name="3_5_forms.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_5_forms.html" />
     <list>
-      <item itemvalue="JavaScript Debug.2_4_floats_position.html" />
       <item itemvalue="JavaScript Debug.2_5_colors_background.html" />
       <item itemvalue="JavaScript Debug.2_6_spacing.html" />
       <item itemvalue="JavaScript Debug.2_7_sizing.html" />
       <item itemvalue="JavaScript Debug.3_2_buttons.html" />
+      <item itemvalue="JavaScript Debug.3_5_forms.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.3_5_forms.html" />
         <item itemvalue="JavaScript Debug.3_2_buttons.html" />
         <item itemvalue="JavaScript Debug.2_7_sizing.html" />
         <item itemvalue="JavaScript Debug.2_6_spacing.html" />
         <item itemvalue="JavaScript Debug.2_5_colors_background.html" />
-        <item itemvalue="JavaScript Debug.2_4_floats_position.html" />
       </list>
     </recent_temporary>
   </component>
@@ -150,12 +152,13 @@
       <workItem from="1529209659365" duration="89000" />
       <workItem from="1529209761228" duration="6190000" />
       <workItem from="1529263937852" duration="6551000" />
-      <workItem from="1529350601418" duration="14280000" />
+      <workItem from="1529350601418" duration="14497000" />
+      <workItem from="1529442946310" duration="3286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34843000" />
+    <option name="totallyTimeSpent" value="38346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -170,7 +173,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989059" visible="true" weight="0.25838926" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989059" weight="0.25838926" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.15100671" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -189,6 +192,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/3_4_list_groups_badges.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3864">
+          <caret line="168" column="45" selection-start-line="168" selection-start-column="45" selection-end-line="168" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3_2_buttons.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3082">
@@ -289,8 +299,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3_4_list_groups_badges.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="183">
           <caret line="168" column="45" selection-start-line="168" selection-start-column="45" selection-end-line="168" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_5_forms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="223" column="110" selection-start-line="223" selection-start-column="110" selection-end-line="223" selection-end-column="110" />
         </state>
       </provider>
     </entry>

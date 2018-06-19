@@ -90,86 +90,126 @@
         <!-- FORM -->
         <form>
             <!-- TEXT FIELD GROUPS -->
-            <div>
+            <!--
+            To make a Bootstrap form style we use "form-group" and "form-control" classes, as shown below.
+            -->
+            <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Enter name">
+                <input class="form-control" type="text" id="name" placeholder="Enter name">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="email">Email address</label>
-                <input type="email" id="email" placeholder="Enter email">
+                <!--
+                To make an email text input bigger, we use "form-control-lg", as shown below.
+                -->
+                <input class="form-control form-control-lg" type="email" id="email" placeholder="Enter email">
+                <!--
+                To attach a message to our form element we use the <small></small> tags as well as "form-text" class,
+                as shown below.
+                -->
+                <small class="form-text text-muted">Your email will not ever be shared.</small>
             </div>
-            <div>
+            <div class="form-group">
                 <label for="company">Company</label>
-                <input type="text" id="company" placeholder="Enter company name">
+                <!--
+                To make an email text input smaller, we use "form-control-sm", as shown below.
+                -->
+                <input class="form-control form-control-sm" type="text" id="company" placeholder="Enter company name">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Password">
+                <!--
+                To make a form field read-only we can use the readonly attribute, as shown below. Please note that
+                this is not a Bootstrap functionality.
+                -->
+                <input class="form-control" type="password" id="password" placeholder="Password" readonly>
             </div>
             <!-- SELECT -->
-            <div>
+            <div class="form-group">
                 <label for="gender">Gender</label>
-                <select id="gender">
+                <select class="form-control" id="gender">
                     <option>Male</option>
                     <option>Female</option>
                 </select>
             </div>
             <!-- TEXTAREA -->
-            <div>
+            <div class="form-group">
                 <label for="message">Message</label>
-                <textarea id="message" rows="3"></textarea>
+                <textarea class="form-control" id="message" rows="3"></textarea>
             </div>
             <!-- FILE INPUT -->
-            <div>
+            <!--
+            To make a Bootstrap style file input, we use "form-group" and "form-control-file" classes, as shown below.
+            -->
+            <div class="form-group">
                 <label for="file">File input</label>
-                <input type="file" id="file">
-                <small id="fileHelp">Max 3mb size</small>
+                <input type="file" id="file" class="form-control-file">
+                <small class="form-text text-muted" id="fileHelp">Max 3mb size</small>
             </div>
             <!-- CUSTOM FILE INPUT -->
-            <div>
-                <input type="file" id="myfile">
-                <label for="myfile">Choose file</label>
+            <!--
+            To make a custom file input, we use the "custom-file" and "custom-file-input" classes, as shown below.
+            -->
+            <div class="custom-file">
+                <input type="file" id="myfile" class="custom-file-input">
+                <label class="custom-file-label" for="myfile">Choose file</label>
             </div>
             <br>
             <br>
             <!-- RANGE -->
-            <div>
+            <!--
+            To make a Bootstrap style range selector, we use "form-group" and "custom-range" classes, as shown below.
+            -->
+            <div class="form-group">
                 <label for="membership">Membership Level</label>
-                <input type="range">
+                <input id="membership" class="custom-range" min="1" max="5" step="1" value="1" type="range">
             </div>
 
             <br>
-
-            <button type="submit">Submit</button>
+            <!--
+            To style the submit button, we just use the normal button classes, as shown below.
+            -->
+            <button class="btn btn-primary btn-block" type="submit">Submit</button>
         </form>
 
         <br>
         <br>
 
         <!-- INLINE FORM -->
-        <form>
-            <input type="text" id="username" placeholder="Enter username">
-            <input type="text" id="password" placeholder="Password">
-            <div>
-                <label>
-                    <input type="checkbox"> Remember me
+        <!--
+        To make an inline form, we use the "form-inline" class, as shown below.
+        -->
+        <form class="form-inline">
+            <input class="form-control mr-2" type="text" id="username1" placeholder="Enter username">
+            <input class="form-control mr-2" type="text" id="password1" placeholder="Password">
+            <!--
+            To make a Bootstrap style checkbox, we use the "form-check" and "form-check-label" classes, as shown
+            below.
+            -->
+            <div class="form-check">
+                <label class="form-check-label mr-2">
+                    <input type="checkbox" class="form-check-input"> Remember me
                 </label>
             </div>
 
-            <button type="submit">Submit</button>
+            <button class="btn btn-light" type="submit">Submit</button>
         </form>
 
         <br>
         <br>
 
         <!-- FORM ROW -->
+        <!--
+        To make a form row -- meaning, a form which uses the Bootstrap grid system -- we use "form-row" and "col"
+        classes, as shown below.
+        -->
         <form>
-            <div>
-                <div>
-                    <input type="text" placeholder="First name">
+            <div class="form-row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
                 </div>
-                <div>
-                    <input type="text" placeholder="Last name">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
                 </div>
             </div>
         </form>
@@ -178,21 +218,32 @@
         <br>
 
         <!-- VALIDATION -->
-        <div>
-            <label for="username">Username</label>
-            <input type="text" id="username">
+        <!--
+            "is-valid" gives a form input a green box, meaning the input entered is acceptable.
+            "is-invalid" gives a form input a red box, meaning the input entered is unacceptable.
+            "invalid-feedback" makes an element have a red text to indicate that the text is an error message.
+            However, Bootstrap only gives us the UI of the validation. To dynamically add these classes in response
+            to actual user input, we would have to use Javascript in order to do so.
+        -->
+        <div class="form-group">
+            <label for="username2">Username</label>
+            <input class="form-control is-valid" type="text" id="username2">
         </div>
-        <div>
-            <label for="password">Password</label>
-            <input type="text" id="password">
-            <div>
+        <div class="form-group">
+            <label for="password2">Password</label>
+            <!--
+            What is interesting here is that if we remove the "is-invalid" class, the "invalid-feedback" element
+            will be removed as well.
+            -->
+            <input class="form-control is-invalid" type="text" id="password2">
+            <div class="invalid-feedback">
                 Password not strong enough
             </div>
         </div>
-        <div>
-            <label for="password2">Confirm Password</label>
-            <input type="text" id="password2">
-            <div>
+        <div class="form-group">
+            <label for="password3">Confirm Password</label>
+            <input class="form-control is-invalid" type="text" id="password3">
+            <div class="invalid-feedback">
                 Password does not match
             </div>
         </div>
