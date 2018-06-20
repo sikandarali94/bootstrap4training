@@ -88,7 +88,10 @@
         <!--#####################START HERE######################-->
 
         <!-- TABLE -->
-        <table>
+        <!--
+        To make a simple Bootstrap style table, we should use the "table" class, as shown below.
+        -->
+        <table class="table">
             <thead>
                 <tr>
                     <th>#</th>
@@ -122,7 +125,11 @@
         <br>
 
         <!-- INVERSE/DARK TABLE -->
-        <table>
+        <!--
+        To make a dark Bootstrap styled table, we should use "table" and "table-dark" classes, as shown below.
+        In Bootstrap 4 bet version, the class for a dark table used to be, "table-inverse".
+        -->
+        <table class="table table-dark">
             <thead>
                 <tr>
                     <th>#</th>
@@ -156,8 +163,11 @@
         <br>
 
         <!-- TABLE HEAD INVERSE -->
-        <table>
-            <thead>
+        <table class="table">
+            <!--
+            To make just the table head dark, we use the "thead-dark" class on the thead element, as shown below.
+            -->
+            <thead class="thead-dark">
                 <tr>
                     <th>#</th>
                     <th>First Name</th>
@@ -190,7 +200,11 @@
         <br>
 
         <!-- STRIPED TABLE -->
-        <table>
+        <!--
+        To make a striped table, where every other row has a grey background, we use "table" and "table-striped"
+        classes, as shown below.
+        -->
+        <table class="table table-striped">
             <thead>
                 <tr>
                     <th>#</th>
@@ -222,7 +236,10 @@
         </table>
 
         <!-- BORDERED TABLE -->
-        <table>
+        <!--
+        To make a bordered table, we use "table" and "table-bordered" classes, as shown below.
+        -->
+        <table class="table table-bordered">
             <thead>
                 <tr>
                     <th>#</th>
@@ -256,7 +273,10 @@
         <br>
 
         <!-- BORDERLESS TABLE -->
-        <table>
+        <!--
+        To make a borderless table, we use "table" and "table-borderless" classes, as shown below.
+        -->
+        <table class="table table-borderless">
             <thead>
                 <tr>
                     <th>#</th>
@@ -290,7 +310,11 @@
         <br>
 
         <!-- HOVERABLE -->
-        <table>
+        <!--
+        To make a table hoverable -- meaning whenever we hover over a row its background gets greyed -- we use
+        "table" and "table-hover" classes, as shown below.
+        -->
+        <table class="table table-hover">
             <thead>
                 <tr>
                     <th>#</th>
@@ -324,7 +348,7 @@
         <br>
 
         <!-- CONTEXTUAL CLASSES -->
-        <table>
+        <table class="table">
             <thead>
                 <tr>
                     <th>#</th>
@@ -334,19 +358,23 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <!--
+                We can make parts of a table have contextual colors like green using "table-success", as shown
+                below.
+                -->
+                <tr class="table-success">
                     <th scope="row">1</th>
                     <td>John</td>
                     <td>Doe</td>
                     <td>jdoe@gmail.com</td>
                 </tr>
-                <tr>
+                <tr class="table-danger">
                     <th scope="row">2</th>
                     <td>Will</td>
                     <td>Johnson</td>
                     <td>will@yahoo.com</td>
                 </tr>
-                <tr>
+                <tr class="table-warning">
                     <th scope="row">3</th>
                     <td>Shannon</td>
                     <td>Williams</td>
@@ -358,7 +386,10 @@
         <br>
 
         <!-- SMALL TABLE -->
-        <table>
+        <!--
+        We can make a small table using "table" and "table-sm" classes, as shown below.
+        -->
+        <table class="table table-sm table-hover table-striped">
             <thead>
                 <tr>
                     <th>#</th>
@@ -392,8 +423,12 @@
         <br>
 
         <!-- RESPONSIVE TABLE - Scrollbars -->
-        <div>
-            <table>
+        <!--
+        We can make a responsive table using "table" and "table-responsive" classes and following the structure
+        below. Once the table is too small to fit on a screen, Bootstrap adds scrollbars to go through the table.
+        -->
+        <div class="table-responsive">
+            <table class="table">
                 <thead>
                     <tr>
                         <th>#</th>
@@ -429,40 +464,172 @@
         <br>
 
         <!-- PAGINATION -->
+        <!--
+        Bootstrap only provides the UI for pagination and not actual functionality of a pagination.
+        To create a pagination we should use "pagination", "page-item" and "page-link" classes, as well as follow
+        the structure below.
+        -->
         <nav>
-            <ul>
-                <li>
-                    <a href="#">Previous</a>
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
                 </li>
-                <li>
-                    <a href="#">1</a>
+                <!--
+                We can make one of the page items disabled by using the "disabled" class, as shown below.
+                -->
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">1</a>
                 </li>
-                <li>
-                    <a href="#">2</a>
+                <!--
+                We can make one of the page items active by using the "active" class, as shown below.
+                -->
+                <li class="page-item active">
+                    <a class="page-link" href="#">2</a>
                 </li>
-                <li>
-                    <a href="#">3</a>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
                 </li>
-                <li>
-                    <a href="#">Next</a>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
                 </li>
             </ul>
         </nav>
 
         <!-- PAGINATION CENTERED -->
-
+        <nav>
+            <!--
+            Here we centered the pagination by using the "justify-content-center", as shown below.
+            -->
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <!--
+                We can make one of the page items disabled by using the "disabled" class, as shown below.
+                -->
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <!--
+                We can make one of the page items active by using the "active" class, as shown below.
+                -->
+                <li class="page-item active">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
 
         <!-- PAGINATION RIGHT -->
-
+        <nav>
+            <!--
+            Here we righted the pagination by using the "justify-content-right", as shown below.
+            -->
+            <ul class="pagination justify-content-right">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
 
         <!-- PAGINATION LARGE -->
-
+        <nav>
+            <!--
+            Here we enlargened the pagination by using the "pagination-lg", as shown below.
+            -->
+            <ul class="pagination pagination-lg">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
 
         <!-- PAGINATION SMALL -->
-
+        <nav>
+            <!--
+            Here we shrunk the pagination by using the "pagination-sm", as shown below.
+            -->
+            <ul class="pagination pagination-sm">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
 
         <!-- WITH ARROWS -->
-
+        <nav>
+            <ul class="pagination pagination-sm">
+                <li class="page-item">
+                    <!--
+                    To make arrows indicating next and previous, we should follow the structure below.
+                    -->
+                    <a class="page-link" href="#">
+                        <span>&laquo;</span>
+                        <!--
+                        The below span HTML code will not show Previous, but this like is rather used to
+                        allow the arrow symbol to be shown.
+                        -->
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">
+                        <span>&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
     </div>
     <!-- ./container -->
