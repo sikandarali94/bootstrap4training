@@ -86,24 +86,34 @@
 
     <div class="container">
         <!--#####################START HERE#####################-->
+        <!--
+        Cards is a new concept in Bootstrap 4. Before, in Bootstrap 3 they had something called wells and panels.
+        Cards is a mix of both wells and panels.
+        -->
 
         <!-- BLOCK -->
-        <div>
-            <div>
+        <!--
+        To create a basic block card, we use "card" and "card-body" classes, as shown below.
+        -->
+        <div class="card">
+            <div class="card-body">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, voluptate.
             </div>
         </div>
 
         <br>
         <br>
-
+        <!--
+        To crate a simple card, we use "card", "card-body", "card-title", "card-subtitle" and "card-text" classes,
+        as well as the structure below,
+        -->
         <!-- SIMPLE CARD -->
-        <div>
-            <div>
-                <h4>Card Title</h4>
-                <h6>Card subtitle</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
-                <a href="#">Read More</a>
+        <div class="card" style="width: 20rem;">
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <h6 class="card-subtitle text-muted">Card subtitle</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                <a class="btn btn-outline-primary" href="#">Read More</a>
             </div>
         </div>
 
@@ -111,12 +121,15 @@
         <br>
 
         <!-- CARD WITH IMAGE -->
-        <div>
-            <img src="https://source.unsplash.com/random/300x200" alt="">
-            <div>
-                <h4>Card Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
-                <a href="#">Read More</a>
+        <div class="card">
+            <!--
+            To create a card with an image at the top, we use the "card-img-top" class, as shown below.
+            -->
+            <img class="card-img-top" src="https://source.unsplash.com/random/300x200" alt="">
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                <a class="btn brn-success btn-block" href="#">Read More</a>
             </div>
         </div>
 
@@ -124,14 +137,17 @@
         <br>
 
         <!-- CARD WITH HEADER -->
-        <div>
-            <div>
+        <div class="card">
+            <!--
+            To put a header in a card, we use the "card-header" class, as shown below.
+            -->
+            <div class="card-header">
                 My Card
             </div>
-            <div>
-                <h4>Card Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
-                <a href="#">Read More</a>
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                <a class="btn btn-danger" href="#">Read More</a>
             </div>
         </div>
 
@@ -139,16 +155,22 @@
         <br>
 
         <!-- HEADER, FOOTER, CENTERED -->
-        <div>
-            <div>
+        <!--
+        We can use the "text-center" class, to center the content in a card, as shown below.
+        -->
+        <div class="card text-center">
+            <div class="card-header">
                 My Card
             </div>
-            <div>
-                <h4>Card Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
-                <a href="#">Read More</a>
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                <a class="btn btn-dark" href="#">Read More</a>
             </div>
-            <div>
+            <!--
+            To place a footer in a card, we use the "card-footer" class, as shown below.
+            -->
+            <div class="card-footer text-muted">
                 2 Days Ago
             </div>
         </div>
@@ -157,24 +179,27 @@
         <br>
 
         <!-- CARD WITH NAV -->
-        <div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="#">Active</a>
+        <!--
+        Follow the classes and structure below to create a card with a nav.
+        -->
+        <div class="card mb-3">
+            <div class="card-header">
+                <u class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Active</a>
                     </li>
-                    <li>
-                        <a href="#">Link</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
                     </li>
-                    <li>
-                        <a href="#">Disabled</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Disabled</a>
                     </li>
                 </ul>
             </div>
-            <div>
-                <h4>Card Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
-                <a href="#">Read More</a>
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                <a class="btn btn-primary" href="#">Read More</a>
             </div>
         </div>
 
@@ -182,14 +207,17 @@
         <br>
 
         <!-- IMAGE OVERLAYS -->
-        <div>
-            <img src="https://source.unsplash.com/random/1000x300" alt="">
-            <div>
-                <h4>Card title</h4>
-                <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content
+        <div class="card text-white">
+            <img class="card-img" src="https://source.unsplash.com/random/1000x300" alt="">
+            <!--
+            To make text overlay on the image in the card, we use the "card-img-overlay" class, as shown below.
+            -->
+            <div class="card-img-overlay">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content
                     is a little bit longer.</p>
-                <p>
-                    <small>Last updated 3 mins ago</small>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
                 </p>
             </div>
         </div>
@@ -199,64 +227,68 @@
         <br>
 
         <!-- BACKGROUND COLOR -->
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Primary card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <!--
+        For example, to set the background color of a card to the primary color, we use the "bg-primary" class,
+        as shown below.
+        -->
+        <div class="card bg-primary text-white">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Primary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Secondary card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card bg-secondary">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Secondary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Success card title</h4>
-                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="card bg-success text-white">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Success card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Danger card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card bg-danger text-white">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Danger card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Warning card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card bg-warning">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Warning card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Info card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card bg-info text-white">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Info card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Light card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card bg-light">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Light card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Dark card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card bg-dark text-white">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Dark card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
@@ -264,90 +296,97 @@
         <br>
 
         <!-- CARD OUTLINE -->
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Primary card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <!--
+        For example, to create a card with a primary border, we use the "border-primary" class, as shown below.
+        -->
+        <div class="card border-primary mb-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Primary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Secondary card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card border-secondary mb-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Secondary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Success card title</h4>
-                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="card border-success mb-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Success card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Danger card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card border-danger mb-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Danger card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Warning card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card border-warning mb-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Warning card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Info card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card border-info mb-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Info card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Light card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card border-light mb-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Light card title</h4>
+                <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Dark card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card border-dark mb-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Dark card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
         <br>
         <br>
 
         <!-- CARD GROUP -->
-        <div>
-            <div>
-                <div>
-                    <h4>Card Title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+        <!--
+        To make a card group, we use the "card-group" class, as shown below.
+        -->
+        -->
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Card Title</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
                 </div>
             </div>
-            <div>
-                <div>
-                    <h4>Card Title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Card Title</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
                 </div>
             </div>
-            <div>
-                <div>
-                    <h4>Card Title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Card Title</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
                 </div>
             </div>
         </div>
@@ -357,23 +396,27 @@
         <br>
 
         <!-- CARD DECK -->
-        <div>
-            <div>
-                <div>
-                    <h4>Card Title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+        <!--
+        Card decks are similar to card group except the cards aren't attached to each other but they have equal
+        width and height. To create a card deck, we use the "card-deck" class, as shown below.
+        -->
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Card Title</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
                 </div>
             </div>
-            <div>
-                <div>
-                    <h4>Card Title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Card Title</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
                 </div>
             </div>
-            <div>
-                <div>
-                    <h4>Card Title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Card Title</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
                 </div>
             </div>
         </div>
@@ -382,16 +425,23 @@
         <br>
 
         <!-- CARD COLUMNS -->
-        <div>
-            <div>
-                <img src="https://source.unsplash.com/random/300x200" alt="">
-                <div>
-                    <h4>Card title that wraps to a new line</h4>
-                    <p>This is a longer card with supporting text below as a natural lead-in to additional content. This content
+        <!--
+        To make card columns, similar to how windows do it, we should follow the structure and classes, as shown
+        below.
+        -->
+        <div class="card-columns">
+            <div class="card">
+                <!--
+                img-fluid makes the image fill up whatever container it is in.
+                -->
+                <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/300x200" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
                         is a little bit longer.</p>
                 </div>
             </div>
-            <div>
+            <div class="card p-3">
                 <blockquote>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                     <footer>
@@ -402,20 +452,20 @@
                     </footer>
                 </blockquote>
             </div>
-            <div>
-                <img src="https://source.unsplash.com/random/301x200" alt="">
-                <div>
-                    <h4>Card title</h4>
-                    <p>This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p>
-                        <small>Last updated 3 mins ago</small>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/301x200" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
                     </p>
                 </div>
             </div>
-            <div>
-                <blockquote>
+            <div class="card bg-dark text-white p-3">
+                <blockquote class="card-bodyquote">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer>
+                    <footer class="blockquote-footer">
                         <small>
                             Someone famous in
                             <cite title="Source Title">Source Title</cite>
@@ -423,22 +473,22 @@
                     </footer>
                 </blockquote>
             </div>
-            <div>
-                <div>
-                    <h4>Card title</h4>
-                    <p>This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p>
-                        <small>Last updated 3 mins ago</small>
+            <div class="card text-center">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
                     </p>
                 </div>
             </div>
-            <div>
-                <img src="https://source.unsplash.com/random/302x200" alt="">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/302x200" alt="">
             </div>
-            <div>
-                <blockquote>
+            <div class="card p-3 text-right">
+                <blockquote class="card-bodyquote">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>
+                    <footer class="blockquote-footer">
                         <small>
                             Someone famous in
                             <cite title="Source Title">Source Title</cite>
@@ -446,13 +496,13 @@
                     </footer>
                 </blockquote>
             </div>
-            <div>
-                <div>
-                    <h4>Card title</h4>
-                    <p>This is a wider card with supporting text below as a natural lead-in to additional content. This card
+            <div class="card bg-primary text-white">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card
                         has even longer content than the first to show that equal height action.</p>
-                    <p>
-                        <small>Last updated 3 mins ago</small>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
                     </p>
                 </div>
             </div>

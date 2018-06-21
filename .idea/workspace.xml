@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/3_8_tables_pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_8_tables_pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_9_cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_9_cards.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,13 +28,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3_8_tables_pagination.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3_8_tables_pagination.html">
+      <file leaf-file-name="3_9_cards.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3_9_cards.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="604" column="102" selection-start-line="604" selection-start-column="102" selection-end-line="604" selection-end-column="102" />
+            <state relative-caret-position="394">
+              <caret line="388" column="39" selection-start-line="388" selection-start-column="39" selection-end-line="388" selection-end-column="39" />
               <folding>
-                <element signature="e#22250#22257#1" expanded="true" />
+                <element signature="e#5792#5813#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,6 +62,7 @@
         <option value="$PROJECT_DIR$/3_6_input_groups.html" />
         <option value="$PROJECT_DIR$/3_7_alerts_progress.html" />
         <option value="$PROJECT_DIR$/3_8_tables_pagination.html" />
+        <option value="$PROJECT_DIR$/3_9_cards.html" />
       </list>
     </option>
   </component>
@@ -117,26 +119,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.3_8_tables_pagination.html">
-    <configuration name="3_2_buttons.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_2_buttons.html" />
+  <component name="RunManager" selected="JavaScript Debug.3_9_cards.html">
     <configuration name="3_5_forms.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_5_forms.html" />
     <configuration name="3_6_input_groups.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_6_input_groups.html" />
     <configuration name="3_7_alerts_progress.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_7_alerts_progress.html" />
     <configuration name="3_8_tables_pagination.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_8_tables_pagination.html" />
+    <configuration name="3_9_cards.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_9_cards.html" />
     <list>
-      <item itemvalue="JavaScript Debug.3_2_buttons.html" />
       <item itemvalue="JavaScript Debug.3_5_forms.html" />
       <item itemvalue="JavaScript Debug.3_6_input_groups.html" />
       <item itemvalue="JavaScript Debug.3_7_alerts_progress.html" />
       <item itemvalue="JavaScript Debug.3_8_tables_pagination.html" />
+      <item itemvalue="JavaScript Debug.3_9_cards.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.3_9_cards.html" />
         <item itemvalue="JavaScript Debug.3_8_tables_pagination.html" />
         <item itemvalue="JavaScript Debug.3_7_alerts_progress.html" />
         <item itemvalue="JavaScript Debug.3_6_input_groups.html" />
         <item itemvalue="JavaScript Debug.3_5_forms.html" />
-        <item itemvalue="JavaScript Debug.3_2_buttons.html" />
       </list>
     </recent_temporary>
   </component>
@@ -158,12 +160,13 @@
       <workItem from="1529209761228" duration="6190000" />
       <workItem from="1529263937852" duration="6551000" />
       <workItem from="1529350601418" duration="14497000" />
-      <workItem from="1529442946310" duration="12779000" />
+      <workItem from="1529442946310" duration="13660000" />
+      <workItem from="1529581717915" duration="4563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47839000" />
+    <option name="totallyTimeSpent" value="53283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -178,9 +181,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989059" weight="0.25838926" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989059" weight="0.21588367" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.15100671" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.15100671" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -197,6 +200,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/3_8_tables_pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14191">
+          <caret line="617" column="21" lean-forward="true" selection-start-line="617" selection-start-column="21" selection-end-line="617" selection-end-column="21" />
+          <folding>
+            <element signature="e#23186#23193#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3_4_list_groups_badges.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3864">
@@ -327,30 +340,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="218" column="77" lean-forward="true" selection-start-line="218" selection-start-column="77" selection-end-line="218" selection-end-column="77" />
-          <folding>
-            <element signature="e#6540#6547#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#11;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#13;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#14;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#15;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#15;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#16;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#17;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#18;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#18;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#18;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3_8_tables_pagination.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="604" column="102" selection-start-line="604" selection-start-column="102" selection-end-line="604" selection-end-column="102" />
+        <state relative-caret-position="322">
+          <caret line="617" column="21" selection-start-line="617" selection-start-column="21" selection-end-line="617" selection-end-column="21" />
           <folding>
-            <element signature="e#22250#22257#1" expanded="true" />
+            <element signature="e#23186#23193#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_9_cards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="388" column="39" selection-start-line="388" selection-start-column="39" selection-end-line="388" selection-end-column="39" />
+          <folding>
+            <element signature="e#5792#5813#0" expanded="true" />
           </folding>
         </state>
       </provider>
