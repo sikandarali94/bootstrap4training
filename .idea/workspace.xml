@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_10_media_object.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_10_media_object.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3_9_cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_9_cards.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,14 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3_9_cards.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3_9_cards.html">
+      <file leaf-file-name="3_10_media_object.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3_10_media_object.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="388" column="39" selection-start-line="388" selection-start-column="39" selection-end-line="388" selection-end-column="39" />
-              <folding>
-                <element signature="e#5792#5813#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="253">
+              <caret line="140" column="29" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -63,6 +61,7 @@
         <option value="$PROJECT_DIR$/3_7_alerts_progress.html" />
         <option value="$PROJECT_DIR$/3_8_tables_pagination.html" />
         <option value="$PROJECT_DIR$/3_9_cards.html" />
+        <option value="$PROJECT_DIR$/3_10_media_object.html" />
       </list>
     </option>
   </component>
@@ -119,26 +118,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.3_9_cards.html">
-    <configuration name="3_5_forms.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_5_forms.html" />
+  <component name="RunManager" selected="JavaScript Debug.3_10_media_object.html">
+    <configuration name="3_10_media_object.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_10_media_object.html" />
     <configuration name="3_6_input_groups.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_6_input_groups.html" />
     <configuration name="3_7_alerts_progress.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_7_alerts_progress.html" />
     <configuration name="3_8_tables_pagination.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_8_tables_pagination.html" />
     <configuration name="3_9_cards.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_9_cards.html" />
     <list>
-      <item itemvalue="JavaScript Debug.3_5_forms.html" />
       <item itemvalue="JavaScript Debug.3_6_input_groups.html" />
       <item itemvalue="JavaScript Debug.3_7_alerts_progress.html" />
       <item itemvalue="JavaScript Debug.3_8_tables_pagination.html" />
       <item itemvalue="JavaScript Debug.3_9_cards.html" />
+      <item itemvalue="JavaScript Debug.3_10_media_object.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.3_10_media_object.html" />
         <item itemvalue="JavaScript Debug.3_9_cards.html" />
         <item itemvalue="JavaScript Debug.3_8_tables_pagination.html" />
         <item itemvalue="JavaScript Debug.3_7_alerts_progress.html" />
         <item itemvalue="JavaScript Debug.3_6_input_groups.html" />
-        <item itemvalue="JavaScript Debug.3_5_forms.html" />
       </list>
     </recent_temporary>
   </component>
@@ -161,12 +160,12 @@
       <workItem from="1529263937852" duration="6551000" />
       <workItem from="1529350601418" duration="14497000" />
       <workItem from="1529442946310" duration="13660000" />
-      <workItem from="1529581717915" duration="4563000" />
+      <workItem from="1529581717915" duration="5597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53283000" />
+    <option name="totallyTimeSpent" value="54317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -355,11 +354,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3_9_cards.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="388" column="39" selection-start-line="388" selection-start-column="39" selection-end-line="388" selection-end-column="39" />
+        <state relative-caret-position="532">
+          <caret line="370" column="11" selection-start-line="370" selection-start-column="11" selection-end-line="370" selection-end-column="11" />
           <folding>
             <element signature="e#5792#5813#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_10_media_object.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="140" column="29" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="29" />
         </state>
       </provider>
     </entry>

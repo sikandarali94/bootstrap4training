@@ -88,9 +88,12 @@
         <!--#####################START HERE######################-->
 
         <!-- MEDIA OBJECT -->
-        <div>
-            <img src="https://source.unsplash.com/random/90x90">
-            <div>
+        <!--
+        To create a media object, we use "media" and "media-body" classes, as shown below.
+        -->
+        <div class="media">
+            <img class="mr-3 mt-2" src="https://source.unsplash.com/random/90x90">
+            <div class="media-body">
                 <h5>Media heading</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
                 vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
@@ -102,19 +105,22 @@
         <br>
 
         <!-- NESTING MEDIA OBJECTS -->
-        <div>
-            <img src="https://source.unsplash.com/random/90x91">
-            <div>
+        <!--
+        To create a nested media object, we should follow the structure and classes below.
+        -->
+        <div class="media">
+            <img class="mr-3" src="https://source.unsplash.com/random/90x91">
+            <div class="media-body">
                 <h5>Media heading</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
                 vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
                 felis in faucibus.
 
-                <div>
-                    <a href="#">
+                <div class="media mt-4">
+                    <a class="pr-3" href="#">
                         <img src="https://source.unsplash.com/random/90x92">
                     </a>
-                    <div>
+                    <div class="media-body">
                         <h5>Nested Media</h5>
                         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
                         vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
@@ -128,9 +134,12 @@
         <br>
 
         <!-- TOP ALIGNED (DEFAULT) -->
-        <div>
-            <img src="https://source.unsplash.com/random/90x93">
-            <div>
+        <div class="media">
+            <!--
+            To align the media to the top, we use the "align-self-start" class, as shown below.
+            -->
+            <img class="mr-3 align-self-start" src="https://source.unsplash.com/random/90x93">
+            <div class="media-body">
                 <h5>Top aligned media</h5>
                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
                     vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
@@ -142,9 +151,12 @@
         <br>
 
         <!-- CENTER ALIGNED -->
-        <div>
-            <img src="https://source.unsplash.com/random/90x94">
-            <div>
+        <div class="media">
+            <!--
+            To align the media to the center, we use the "align-self-center" class, as shown below.
+            -->
+            <img class="mr-3 align-self-center" src="https://source.unsplash.com/random/90x94">
+            <div class="media-body">
                 <h5>Center aligned media</h5>
                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
                     vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
@@ -156,9 +168,12 @@
         <br>
 
         <!-- BOTTOM ALIGNED -->
-        <div>
-            <img src="https://source.unsplash.com/random/90x95">
-            <div>
+        <div class="media">
+            <!--
+            To align the media to the bottom, we use the "align-self-end" class, as shown below.
+            -->
+            <img class="mr-3 align-self-end" src="https://source.unsplash.com/random/90x95">
+            <div class="media-body">
                 <h5>Bottom aligned media</h5>
                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
                     vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
@@ -170,28 +185,31 @@
         <br>
 
         <!-- MEDIA LIST -->
-        <ul>
-            <li>
-                <img src="https://source.unsplash.com/random/90x96">
-                <div>
+        <!--
+        To make a list of media objects, follow the structure and classes below.
+        -->
+        <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="https://source.unsplash.com/random/90x96">
+                <div class="media-body">
                     <h5>List based media object</h5>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
                     vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
                     congue felis in faucibus.
                 </div>
             </li>
-            <li>
-                <img src="https://source.unsplash.com/random/90x97">
-                <div>
+            <li class="media">
+                <img class="mr-3" src="https://source.unsplash.com/random/90x97">
+                <div class="media-body">
                     <h5>List based media object</h5>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
                     vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
                     congue felis in faucibus.
                 </div>
             </li>
-            <li>
-                <img src="https://source.unsplash.com/random/90x98">
-                <div>
+            <li class="media">
+                <img class="mr-3" src="https://source.unsplash.com/random/90x98">
+                <div class="media-body">
                     <h5>List based media object</h5>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
                     vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
