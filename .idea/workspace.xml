@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/3_11_jumbotron.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_11_jumbotron.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_2_grid_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/4_2_grid_system.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3_11_jumbotron.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3_11_jumbotron.html">
+      <file leaf-file-name="4_2_grid_system.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4_2_grid_system.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+            <state relative-caret-position="532">
+              <caret line="224" column="10" lean-forward="true" selection-start-line="224" selection-start-column="10" selection-end-line="224" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -61,6 +62,7 @@
         <option value="$PROJECT_DIR$/3_9_cards.html" />
         <option value="$PROJECT_DIR$/3_10_media_object.html" />
         <option value="$PROJECT_DIR$/3_11_jumbotron.html" />
+        <option value="$PROJECT_DIR$/4_2_grid_system.html" />
       </list>
     </option>
   </component>
@@ -117,26 +119,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.3_11_jumbotron.html">
+  <component name="RunManager" selected="JavaScript Debug.4_2_grid_system.html">
     <configuration name="3_10_media_object.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_10_media_object.html" />
     <configuration name="3_11_jumbotron.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_11_jumbotron.html" />
-    <configuration name="3_7_alerts_progress.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_7_alerts_progress.html" />
     <configuration name="3_8_tables_pagination.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_8_tables_pagination.html" />
     <configuration name="3_9_cards.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_9_cards.html" />
+    <configuration name="4_2_grid_system.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/4_2_grid_system.html" />
     <list>
-      <item itemvalue="JavaScript Debug.3_7_alerts_progress.html" />
       <item itemvalue="JavaScript Debug.3_8_tables_pagination.html" />
       <item itemvalue="JavaScript Debug.3_9_cards.html" />
       <item itemvalue="JavaScript Debug.3_10_media_object.html" />
       <item itemvalue="JavaScript Debug.3_11_jumbotron.html" />
+      <item itemvalue="JavaScript Debug.4_2_grid_system.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.4_2_grid_system.html" />
         <item itemvalue="JavaScript Debug.3_11_jumbotron.html" />
         <item itemvalue="JavaScript Debug.3_10_media_object.html" />
         <item itemvalue="JavaScript Debug.3_9_cards.html" />
         <item itemvalue="JavaScript Debug.3_8_tables_pagination.html" />
-        <item itemvalue="JavaScript Debug.3_7_alerts_progress.html" />
       </list>
     </recent_temporary>
   </component>
@@ -159,12 +161,14 @@
       <workItem from="1529263937852" duration="6551000" />
       <workItem from="1529350601418" duration="14497000" />
       <workItem from="1529442946310" duration="13660000" />
-      <workItem from="1529581717915" duration="6374000" />
+      <workItem from="1529581717915" duration="6873000" />
+      <workItem from="1529740287935" duration="4383000" />
+      <workItem from="1529791132307" duration="1242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55094000" />
+    <option name="totallyTimeSpent" value="61218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -198,13 +202,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/4_2_grid_system.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3772">
+          <caret line="164" column="14" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_11_jumbotron.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2668">
+          <caret line="116" column="7" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3_8_tables_pagination.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14191">
           <caret line="617" column="21" lean-forward="true" selection-start-line="617" selection-start-column="21" selection-end-line="617" selection-end-column="21" />
-          <folding>
-            <element signature="e#23186#23193#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -345,9 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="617" column="21" selection-start-line="617" selection-start-column="21" selection-end-line="617" selection-end-column="21" />
-          <folding>
-            <element signature="e#23186#23193#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -355,9 +367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="370" column="11" selection-start-line="370" selection-start-column="11" selection-end-line="370" selection-end-column="11" />
-          <folding>
-            <element signature="e#5792#5813#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -371,7 +380,14 @@
     <entry file="file://$PROJECT_DIR$/3_11_jumbotron.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
-          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+          <caret line="121" column="10" lean-forward="true" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_2_grid_system.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="224" column="10" lean-forward="true" selection-start-line="224" selection-start-column="10" selection-end-line="224" selection-end-column="10" />
         </state>
       </provider>
     </entry>

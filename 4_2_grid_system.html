@@ -88,8 +88,22 @@
     <!--####################START HERE####################-->
 
     <!-- RESPONSIVE GRID -->
-    <div>
-      <div style="border:1px solid #333">
+    <!--
+    Each row inside of a grid should have the "row" class, as shown below. The "row" class, turns the row in the
+    grid into a flex container.
+    -->
+    <div class="row">
+      <!--
+      For example, if we wanted to have six columns on a small screen, we use the "col-sm-6" class. Whatever the
+      largest class we use is going to extend to whatever is bigger than that. For example, "col-sm-6" gives 6
+      columns in a small screen, but it also gives six columns on medium screens and bigger. On an extra small
+      screen, "col-sm-6" will not apply and the elements will thus stack atop one another.
+      If we wanted to have six columns on a small screen but 8 columns on a medium screen, for example, we write
+      both "col-sm-6" and "col-md-8".
+      If we have one element with "col-md-8" and another element with "col-md-4" in the same row then the first
+      element will occupy 8 columns, while the second element will occupy 4 columns on a medium or larger screen.
+      -->
+      <div class="col-sm-6 col-md-8 col-lg-9 col-xl-10" style="border:1px solid #333">
         <ul>
           <li>6 column on small screens</li>
           <li>8 column on medium screen</li>
@@ -97,7 +111,7 @@
           <li>10 column on xlarge screen</li>
         </ul>
       </div>
-      <div style="border:1px solid #333">
+      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2" style="border:1px solid #333">
         <ul>
           <li>6 column on small screens</li>
           <li>4 column on medium screen</li>
@@ -108,75 +122,102 @@
     </div>
 
     <!-- EQUAL WIDTH -->
-    <div>
-      <div style="border:1px solid #333">Equal Width</div>
-      <div style="border:1px solid #333">Equal Width</div>
-      <div style="border:1px solid #333">Equal Width</div>
-      <div style="border:1px solid #333">Equal Width</div>
+    <!--
+    If we want to have elements on a row maintains equal column width on all screen sizes, we write the "col" class
+    on each of those elements. Please note that the elements will not automatically stack atop one another on extra
+    small screens.
+    -->
+    <div class="row">
+      <div class="col" style="border:1px solid #333">Equal Width</div>
+      <div class="col" style="border:1px solid #333">Equal Width</div>
+      <div class="col" style="border:1px solid #333">Equal Width</div>
+      <div class="col" style="border:1px solid #333">Equal Width</div>
     </div>
 
     <!-- EQUAL WIDTH MULTI ROW -->
-    <div>
-      <div style="border:1px solid #333">Equal Width Multi</div>
-      <div style="border:1px solid #333">Equal Width Multi</div>
-      <div style="border:1px solid #333"></div>
-      <div style="border:1px solid #333">Equal Width Multi</div>
-      <div style="border:1px solid #333">Equal Width Multi</div>
+    <div class="row">
+      <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+      <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+      <!--
+      By giving the element below a class of "w-100" we made the first two elements on the row equal width
+      separately on a row, while we make the last two elements on the row equal width separately on a row.
+      -->
+      <div class="w-100" style="border:1px solid #333"></div>
+      <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+      <div class="col" style="border:1px solid #333">Equal Width Multi</div>
     </div>
 
     <!-- AUTO LAYOUT -->
-    <div>
-      <div style="border:1px solid #333">Auto Layout</div>
-      <div style="border:1px solid #333">Auto Layout</div>
-      <div style="border:1px solid #333">Auto Layout</div>
+    <div class="row">
+      <!--
+      Bootstrap also does auto layout. In the example below, the second and third div occupy a total of 10 columns.
+      Bootstrap would automatically make the first div occupy the remaining columns for all screen sizes. In this
+      case it is 2 columns. However, this auto layout will not automatically stack the elements in the row.
+      -->
+      <div class="col" style="border:1px solid #333">Auto Layout</div>
+      <div class="col-6" style="border:1px solid #333">Auto Layout</div>
+      <div class="col-4" style="border:1px solid #333">Auto Layout</div>
     </div>
 
     <!-- EQUAL WIDTH STACKED -->
-    <div>
-      <div style="border:1px solid #333">Equal Width Stack</div>
-      <div style="border:1px solid #333">Equal Width Stack</div>
-      <div style="border:1px solid #333">Equal Width Stack</div>
+    <!--
+    If we want elements to stack on certain screen sizes we have to prepend the size (e.g. "-sm") to "col".
+    -->
+    <div class="row">
+      <div class="col-sm" style="border:1px solid #333">Equal Width Stack</div>
+      <div class="col-sm" style="border:1px solid #333">Equal Width Stack</div>
+      <div class="col-sm" style="border:1px solid #333">Equal Width Stack</div>
     </div>
 
     <!-- ORDERING -->
-    <div>
-      <div style="border:1px solid #333">
+    <!--
+    To change the order of an element in a row we use the "order-[order-number]" class, as shown below.
+    -->
+    <div class="row">
+      <div class="col order-3" style="border:1px solid #333">
         First
       </div>
-      <div style="border:1px solid #333">
+      <div class="col order-2" style="border:1px solid #333">
         Second
       </div>
-      <div style="border:1px solid #333">
+      <div class="col order-1" style="border:1px solid #333">
         Third
       </div>
     </div>
 
     <!-- OFFSETTING -->
-    <div>
+    <div class="row">
       <!-- 6 column div offset by 3 -->
-      <div style="border:1px solid #333">.col-md-6 .offset-md-3</div>
+      <!--
+      We can offset an element in a row by certain columns as we have done below. In the case below, we offset a
+      6-column div by 3 columns from the left and thus this div appears centered on the row.
+      -->
+      <div class="col-md-6 offset-md-3" style="border:1px solid #333">.col-md-6 .offset-md-3</div>
     </div>
-    <div>
+    <div class="row">
       <!-- 2 4 column divs, the second offset by 4 -->
-      <div style="border:1px solid #333">.col-md-4</div>
-      <div style="border:1px solid #333">.col-md-4 .offset-md-4</div>
+      <div class="col-md-4" style="border:1px solid #333">.col-md-4</div>
+      <div class="col-md-4 offset-md-4" style="border:1px solid #333">.col-md-4 .offset-md-4</div>
     </div>
 
-    <div>
+    <div class="row">
       <!-- 2 3 column divs, both offset by 3 -->
-      <div style="border:1px solid #333">.col-md-3 .offset-md-3</div>
-      <div style="border:1px solid #333">.col-md-3 .offset-md-3</div>
+      <div class="col-md-3 offset-md-3" style="border:1px solid #333">.col-md-3 .offset-md-3</div>
+      <div class="col-md-3 offset-md-3" style="border:1px solid #333">.col-md-3 .offset-md-3</div>
     </div>
 
     <!-- NESTING -->
-    <div>
-      <div style="border:1px solid blue">
+    <!--
+    We can nest grid rows inside of grid rows, as shown below.
+    -->
+    <div class="row">
+      <div class="col-sm-9" style="border:1px solid blue">
         Level 1: .col-sm-9
-        <div>
-          <div style="border:1px solid red">
+        <div class="row">
+          <div class="col-8 col-sm-6" style="border:1px solid red">
             Level 2: .col-8 .col-sm-6
           </div>
-          <div style="border:1px solid red">
+          <div class="col-4 col-sm-6" style="border:1px solid red">
             Level 2: .col-4 .col-sm-6
           </div>
         </div>
