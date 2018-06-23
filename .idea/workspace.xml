@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_2_grid_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/4_2_grid_system.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_3_grid_alignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/4_3_grid_alignment.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="4_2_grid_system.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4_2_grid_system.html">
+      <file leaf-file-name="4_3_grid_alignment.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4_3_grid_alignment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="224" column="10" lean-forward="true" selection-start-line="224" selection-start-column="10" selection-end-line="224" selection-end-column="10" />
+            <state relative-caret-position="161">
+              <caret line="217" column="103" selection-start-line="217" selection-start-column="103" selection-end-line="217" selection-end-column="103" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,6 +65,7 @@
         <option value="$PROJECT_DIR$/3_10_media_object.html" />
         <option value="$PROJECT_DIR$/3_11_jumbotron.html" />
         <option value="$PROJECT_DIR$/4_2_grid_system.html" />
+        <option value="$PROJECT_DIR$/4_3_grid_alignment.html" />
       </list>
     </option>
   </component>
@@ -119,26 +122,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.4_2_grid_system.html">
+  <component name="RunManager" selected="JavaScript Debug.4_3_grid_alignment.html">
     <configuration name="3_10_media_object.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_10_media_object.html" />
     <configuration name="3_11_jumbotron.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_11_jumbotron.html" />
-    <configuration name="3_8_tables_pagination.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_8_tables_pagination.html" />
     <configuration name="3_9_cards.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_9_cards.html" />
     <configuration name="4_2_grid_system.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/4_2_grid_system.html" />
+    <configuration name="4_3_grid_alignment.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/4_3_grid_alignment.html" />
     <list>
-      <item itemvalue="JavaScript Debug.3_8_tables_pagination.html" />
       <item itemvalue="JavaScript Debug.3_9_cards.html" />
       <item itemvalue="JavaScript Debug.3_10_media_object.html" />
       <item itemvalue="JavaScript Debug.3_11_jumbotron.html" />
       <item itemvalue="JavaScript Debug.4_2_grid_system.html" />
+      <item itemvalue="JavaScript Debug.4_3_grid_alignment.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.4_3_grid_alignment.html" />
         <item itemvalue="JavaScript Debug.4_2_grid_system.html" />
         <item itemvalue="JavaScript Debug.3_11_jumbotron.html" />
         <item itemvalue="JavaScript Debug.3_10_media_object.html" />
         <item itemvalue="JavaScript Debug.3_9_cards.html" />
-        <item itemvalue="JavaScript Debug.3_8_tables_pagination.html" />
       </list>
     </recent_temporary>
   </component>
@@ -163,12 +166,12 @@
       <workItem from="1529442946310" duration="13660000" />
       <workItem from="1529581717915" duration="6873000" />
       <workItem from="1529740287935" duration="4383000" />
-      <workItem from="1529791132307" duration="1242000" />
+      <workItem from="1529791132307" duration="3573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61218000" />
+    <option name="totallyTimeSpent" value="63549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -388,6 +391,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="224" column="10" lean-forward="true" selection-start-line="224" selection-start-column="10" selection-end-line="224" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_3_grid_alignment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="217" column="103" selection-start-line="217" selection-start-column="103" selection-end-line="217" selection-end-column="103" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
