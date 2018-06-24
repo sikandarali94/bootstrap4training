@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_5_auto_margins_wrapping_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/4_5_auto_margins_wrapping_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_2_carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/5_2_carousel.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,20 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="4_5_auto_margins_wrapping_order.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4_5_auto_margins_wrapping_order.html">
+      <file leaf-file-name="5_2_carousel.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5_2_carousel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="155" column="22" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4_4_flexbox.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4_4_flexbox.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="100" column="7" lean-forward="true" selection-start-line="98" selection-start-column="4" selection-end-line="100" selection-end-column="7" />
+            <state relative-caret-position="463">
+              <caret line="264" column="14" selection-start-line="264" selection-start-column="14" selection-end-line="264" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -75,6 +66,7 @@
         <option value="$PROJECT_DIR$/4_3_grid_alignment.html" />
         <option value="$PROJECT_DIR$/4_4_flexbox.html" />
         <option value="$PROJECT_DIR$/4_5_auto_margins_wrapping_order.html" />
+        <option value="$PROJECT_DIR$/5_2_carousel.html" />
       </list>
     </option>
   </component>
@@ -88,8 +80,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="958" />
-    <option name="width" value="969" />
+    <option name="x" value="951" />
+    <option name="width" value="976" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -98,6 +90,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,7 +102,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,26 +123,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.4_5_auto_margins_wrapping_order.html">
-    <configuration name="3_11_jumbotron.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/3_11_jumbotron.html" />
+  <component name="RunManager" selected="JavaScript Debug.5_2_carousel.html">
     <configuration name="4_2_grid_system.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/4_2_grid_system.html" />
     <configuration name="4_3_grid_alignment.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/4_3_grid_alignment.html" />
     <configuration name="4_4_flexbox.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/4_4_flexbox.html" />
     <configuration name="4_5_auto_margins_wrapping_order.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/4_5_auto_margins_wrapping_order.html" />
+    <configuration name="5_2_carousel.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/5_2_carousel.html" />
     <list>
-      <item itemvalue="JavaScript Debug.3_11_jumbotron.html" />
       <item itemvalue="JavaScript Debug.4_2_grid_system.html" />
       <item itemvalue="JavaScript Debug.4_3_grid_alignment.html" />
       <item itemvalue="JavaScript Debug.4_4_flexbox.html" />
       <item itemvalue="JavaScript Debug.4_5_auto_margins_wrapping_order.html" />
+      <item itemvalue="JavaScript Debug.5_2_carousel.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.5_2_carousel.html" />
         <item itemvalue="JavaScript Debug.4_5_auto_margins_wrapping_order.html" />
         <item itemvalue="JavaScript Debug.4_4_flexbox.html" />
         <item itemvalue="JavaScript Debug.4_3_grid_alignment.html" />
         <item itemvalue="JavaScript Debug.4_2_grid_system.html" />
-        <item itemvalue="JavaScript Debug.3_11_jumbotron.html" />
       </list>
     </recent_temporary>
   </component>
@@ -175,15 +167,16 @@
       <workItem from="1529442946310" duration="13660000" />
       <workItem from="1529581717915" duration="6873000" />
       <workItem from="1529740287935" duration="4383000" />
-      <workItem from="1529791132307" duration="9527000" />
+      <workItem from="1529791132307" duration="9944000" />
+      <workItem from="1529874366283" duration="6266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69503000" />
+    <option name="totallyTimeSpent" value="76186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="958" y="0" width="969" height="1047" extended-state="0" />
+    <frame x="951" y="0" width="976" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.38833883" />
@@ -197,7 +190,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989059" weight="0.21588367" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.15100671" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.15100671" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -214,6 +207,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/4_5_auto_margins_wrapping_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4646">
+          <caret line="202" column="12" lean-forward="true" selection-start-line="202" selection-start-column="12" selection-end-line="202" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_4_flexbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="100" column="7" lean-forward="true" selection-start-line="98" selection-start-column="4" selection-end-line="100" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/4_2_grid_system.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3772">
@@ -407,23 +414,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="198" column="12" lean-forward="true" selection-start-line="198" selection-start-column="12" selection-end-line="200" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_5_auto_margins_wrapping_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2507">
+          <caret line="202" column="12" selection-start-line="202" selection-start-column="12" selection-end-line="202" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4_4_flexbox.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="100" column="7" lean-forward="true" selection-start-line="98" selection-start-column="4" selection-end-line="100" selection-end-column="7" />
+          <caret line="100" column="7" selection-start-line="98" selection-start-column="4" selection-end-line="100" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4_5_auto_margins_wrapping_order.html">
+    <entry file="file://$PROJECT_DIR$/5_2_carousel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="155" column="22" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
+        <state relative-caret-position="463">
+          <caret line="264" column="14" selection-start-line="264" selection-start-column="14" selection-end-line="264" selection-end-column="14" />
         </state>
       </provider>
     </entry>
