@@ -96,10 +96,16 @@
 
     <div class="container">
         <!--#####################START HERE######################-->
-
+        <!--
+        Please note that "row-hl" and "item-hl" here have noting to do with Bootstrap.
+        -->
         <!-- MR-AUTO -->
         <div class="d-flex row-hl">
-            <div class="p-2 item-hl">Flex item</div>
+            <!--
+            Placing "mr-auto" on the first item here in the flex container would push the other items to the right
+            while keeping the first item aligned to the left.
+            -->
+            <div class="mr-auto p-2 item-hl">Flex item</div>
             <div class="p-2 item-hl">Flex item</div>
             <div class="p-2 item-hl">Flex item</div>
         </div>
@@ -111,7 +117,11 @@
         <div class="d-flex row-hl">
             <div class="p-2 item-hl">Flex item</div>
             <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
+            <!--
+            Placing "ml-auto" on the third item here in the flex container would push the other items to the left
+            while making the third item aligned to the right.
+            -->
+            <div class="ml-auto p-2 item-hl">Flex item</div>
         </div>
 
         <br>
@@ -119,7 +129,11 @@
 
         <!-- MB-AUTO -->
         <div class="d-flex flex-column row-hl">
-            <div class="p-2 item-hl">Flex item</div>
+            <!--
+            Placing "mb-auto" here on the first item in the flex container would push the other items down while
+            keeping the first item aligned to the top.
+            -->
+            <div class="mb-auto p-2 item-hl">Flex item</div>
             <div class="p-2 item-hl">Flex item</div>
             <div class="p-2 item-hl">Flex item</div>
         </div>
@@ -131,14 +145,17 @@
         <div class="d-flex flex-column row-hl">
             <div class="p-2 item-hl">Flex item</div>
             <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
+            <div class="mt-auto p-2 item-hl">Flex item</div>
         </div>
 
         <br>
         <br>
 
         <!-- NO WRAP -->
-        <div class="d-flex row-hl">
+        <!--
+        "flex-nowrap" prevents items in a container from wrapping over when they exceed the screen width.
+        -->
+        <div class="d-flex flex-nowrap row-hl">
             <div class="p-2 item-hl">Flex item</div>
             <div class="p-2 item-hl">Flex item</div>
             <div class="p-2 item-hl">Flex item</div>
@@ -161,7 +178,10 @@
         <br>
 
         <!-- WRAP -->
-        <div class="d-flex row-hl">
+        <!--
+        "flex-wrap" makes items in a container wrap over when the items exceed the screen width.
+        -->
+        <div class="d-flex flex-wrap row-hl">
             <div class="p-2 item-hl">Flex item</div>
             <div class="p-2 item-hl">Flex item</div>
             <div class="p-2 item-hl">Flex item</div>
@@ -183,10 +203,13 @@
         <br>
 
         <!-- ORDERING -->
+        <!--
+        We can order items in a flex row by using the "order-[order-number]" classes, as we have done below.
+        -->
         <div class="d-flex row-hl">
-            <div class="p-2 item-hl">First flex item</div>
-            <div class="p-2 item-hl">Second flex item</div>
-            <div class="p-2 item-hl">Third flex item</div>
+            <div class="order-3 p-2 item-hl">First flex item</div>
+            <div class="order-2 p-2 item-hl">Second flex item</div>
+            <div class="order-1 p-2 item-hl">Third flex item</div>
         </div>
 
 
