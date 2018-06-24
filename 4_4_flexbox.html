@@ -96,9 +96,16 @@
 
   <div class="container">
     <!--#####################START HERE######################-->
-
+    <!--
+    Please note that "row-hl" and "item-hl" here have noting to do with Bootstrap.
+    -->
     <!-- FLEX ROW & FLEX ITEMS -->
-    <div class="row-hl">
+    <!--
+    To turn an element into a flex container, we use the "d-flex" class, as shown below. To show elements in a
+    horizontal direction we use the "flex-row" class, as shown below. "flex-row" is default setting for items
+    in a flex container.
+    -->
+    <div class="d-flex flex-row row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -108,7 +115,11 @@
     <br>
 
     <!-- FLEX ROW REVERSE -->
-    <div class="row-hl">
+    <!--
+    To show elements in a container statring from the opposite horizontal direction, we use the "flex-row-reverse"
+    class, as shown below.
+    -->
+    <div class="d-flex flex-row-reverse row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -118,7 +129,11 @@
     <br>
 
     <!-- JUSTIFY CONTENT - CONTENT START -->
-    <div class="row-hl">
+    <!--
+    To align items in a container to the left -- in other words, to the start of the horizontal axis -- we use
+    the "justify-content-start" class, as shown below.
+    -->
+    <div class="d-flex justify-content-start row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -128,7 +143,7 @@
     <br>
 
     <!-- JUSTIFY CONTENT - CONTENT CENTER -->
-    <div class="row-hl">
+    <div class="d-flex justify-content-center row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -138,7 +153,7 @@
     <br>
 
     <!-- JUSTIFY CONTENT - CONTENT END -->
-    <div class="row-hl">
+    <div class="d-flex justify-content-end row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -148,7 +163,11 @@
     <br>
 
     <!-- JUSTIFY CONTENT - CONTENT AROUND -->
-    <div class="row-hl">
+    <!--
+    "jusitfy-content-around" puts spacing evenly between the items across the axis with equal spacing on all
+    sides of every item, including the first and last item.
+    -->
+    <div class="d-flex justify-content-around row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -158,7 +177,10 @@
     <br>
 
     <!-- JUSTIFY CONTENT - CONTENT BETWEEN -->
-    <div class="row-hl">
+    <!--
+    "jusitfy-content-between" puts space evenly between the items across the axis.
+    -->
+    <div class="d-flex justify-content-between row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -168,7 +190,10 @@
     <br>
 
     <!-- FLEX COLUMN -->
-    <div class="row-hl">
+    <!--
+    To show elements in a vertical direction we use the "flex-column" class, as shown below.
+    -->
+    <div class="d-flex flex-column row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -178,7 +203,11 @@
     <br>
 
     <!-- FLEX COLUMN REVERSE -->
-    <div class="row-hl">
+    <!--
+    To show elements in a vertical direction, but starting from the opposite direction, we use the
+    "flex-column-reverse" class, as shown below.
+    -->
+    <div class="d-flex flex-column-reverse row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -188,7 +217,10 @@
     <br>
 
     <!-- VERTICAL ALIGN ITEMS - START -->
-    <div class="row-hl">
+    <!--
+    To align items on the staring position of the vertical axis, we use the "align-items-start" class, as shown below.
+    -->
+    <div class="d-flex align-items-start row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -198,7 +230,7 @@
     <br>
 
     <!-- VERTICAL ALIGN ITEMS - CENTER -->
-    <div class="row-hl">
+    <div class="d-flex align-items-center row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -208,7 +240,7 @@
     <br>
 
     <!-- VERTICAL ALIGN ITEMS - END -->
-    <div class="row-hl">
+    <div class="d-flex align-items-end row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -218,7 +250,7 @@
     <br>
 
     <!-- VERTICAL ALIGN ITEMS - BASELINE -->
-    <div class="row-hl">
+    <div class="d-flex align-items-baseline row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -228,7 +260,11 @@
     <br>
 
     <!-- VERTICAL ALIGN ITEMS - STRETCH -->
-    <div class="row-hl">
+    <!--
+    To stretch items so that their occupy the height of their container, we use the "align-items-stretch" class, as
+    shown below.
+    -->
+    <div class="d-flex align-items-stretch row-hl">
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
       <div class="p-4 item-hl">Flex Item</div>
@@ -238,12 +274,15 @@
     <br>
 
     <!-- ALIGN SELF -->
-    <div class="row-hl">
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
-      <div class="p-4 item-hl">Flex Item</div>
+    <div class="d-flex row-hl">
+      <!--
+      To align items individually we use "align-self-[vertical-position]" classes, as shown below.
+      -->
+      <div class="align-self-start p-4 item-hl">Flex Item</div>
+      <div class="align-self-center p-4 item-hl">Flex Item</div>
+      <div class="align-self-end p-4 item-hl">Flex Item</div>
+      <div class="align-self-baseline p-4 item-hl">Flex Item</div>
+      <div class="align-self-stretch p-4 item-hl">Flex Item</div>
     </div>
 
     <div style="margin-top:500px;"></div>
