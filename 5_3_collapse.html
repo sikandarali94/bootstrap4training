@@ -88,11 +88,18 @@
     <!--#####################START HERE###################-->
 
     <!-- BUTTON WITH COLLAPSE -->
-    <button>Read More</button>
+    <!--
+    To make a collapsable element toggled by a button we use data-toggle="collapse", data-target="[#any-id-we-like]",
+    class="collapse" and id="[id-we-defined-for-data-target]" and follow the structure defined below.
+    -->
+    <button class="btn btn-primary d-block mb-4" data-toggle="collapse" data-target="#collapse-btn-1">Read More</button>
 
-    <div>
-      <div>
-        <div>
+    <div class="collapse mb-5" id="collapse-btn-1">
+      <!--
+      We only made the below div a card so it looks good.
+      -->
+      <div class="card">
+        <div class="card-body">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eius libero quisquam nobis explicabo vel non necessitatibus
           ipsum doloribus cupiditate voluptate recusandae quo autem error debitis, sed, minima repellendus commodi.
         </div>
@@ -100,18 +107,33 @@
     </div>
 
     <!-- ACCORDION -->
-    <div>
-      <div>
-        <div>
+    <!--
+    To create an accordion we should follow the classes, attributes and structure shown below.
+    -->
+    <div id="accordion">
+      <!--
+      We only made the below div a card so it looks good.
+      -->
+      <div class="card">
+        <div class="card-header">
           <h5>
-            <a>
+            <!--
+            To make the <a></a> element a toggle for a collapse body in the accordion we use
+            href=[#id-of-collapsable-container], data-parent=[#id-of-accordion] and data-toggle="collapse", as shown
+            below.
+            -->
+            <a href="#collapse1" data-parent="#accordion" data-toggle="collapse">
               Collapse One
             </a>
           </h5>
         </div>
-
-        <div>
-          <div>
+        <!--
+        The id of the collapsable container should be the href we defined for the collpase toggle <a></a> and class
+        of "collapse". We use "show" class on those collapsable bodies that we want to show when the webpage is
+        loaded. Otherwise, we don't use it.
+        -->
+        <div id="collapse1" class="collapse show">
+          <div class="card-body">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ea iste a doloremque, cumque, debitis eum vel ipsum architecto
             aut, recusandae totam ullam aperiam. Nesciunt expedita officiis animi quam corporis optio inventore facilis sint
             et nulla in, repellat debitis dolor at nisi quo, unde temporibus. Quos nisi nostrum officia, illo.
@@ -119,17 +141,17 @@
         </div>
       </div>
 
-      <div>
-        <div>
+      <div class="card">
+        <div class="card-header">
           <h5>
-            <a>
+            <a href="#collapse2" data-parent="#accordion" data-toggle="collapse">
               Collapse Two
             </a>
           </h5>
         </div>
 
-        <div>
-          <div>
+        <div id="collapse2" class="collapse">
+          <div class="card-body">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ea iste a doloremque, cumque, debitis eum vel ipsum architecto
             aut, recusandae totam ullam aperiam. Nesciunt expedita officiis animi quam corporis optio inventore facilis sint
             et nulla in, repellat debitis dolor at nisi quo, unde temporibus. Quos nisi nostrum officia, illo.
@@ -137,17 +159,17 @@
         </div>
       </div>
 
-      <div>
-        <div>
+      <div class="card">
+        <div class="card-header">
           <h5>
-            <a>
+            <a href="#collapse3" data-parent="#accordion" data-toggle="collapse">
               Collapse Three
             </a>
           </h5>
         </div>
 
-        <div>
-          <div>
+        <div id="collapse3" class="collapse">
+          <div class="card-body">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ea iste a doloremque, cumque, debitis eum vel ipsum architecto
             aut, recusandae totam ullam aperiam. Nesciunt expedita officiis animi quam corporis optio inventore facilis sint
             et nulla in, repellat debitis dolor at nisi quo, unde temporibus. Quos nisi nostrum officia, illo.
