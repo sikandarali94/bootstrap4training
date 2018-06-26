@@ -88,36 +88,54 @@
   <!--##################START HERE####################-->
 
   <!-- POPOVER -->
-  <button class="btn btn-danger">
-    Toggle popover
-  </button>
+  <!--
+  For example, to create a popover where the message appears at the top, we use data-toggle="popover",
+  data-placement="top" and data-content="[whatever-content-we-want-shown-in-popover]", as shown below. To use the
+  popover we first have to initialise it with JavaScript or jQuery as we have done in <script></script>.
+  -->
+  <button class="btn btn-danger" data-toggle="popover" data-placement="top" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, sequi.
+      Toggle popover">Popover Top</button>
 
-  <button class="btn btn-primary">
-    Toggle popover
-  </button>
+  <button class="btn btn-primary" data-toggle="popover" data-placement="right" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, suscipit?
+      Toggle popover">Popover Right</button>
 
-  <button class="btn btn-warning">
-    Toggle popover
-  </button>
+  <button class="btn btn-warning" data-toggle="popover" data-placement="bottom" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, optio.
+      Toggle popover">Popover Bottom</button>
 
-  <button class="btn btn-info">
-    Toggle popover
-  </button>
+  <button class="btn btn-info" data-toggle="popover" data-placement="left" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, asperiores.
+      Toggle popover">Popover Left</button>
 
   <br>
   <br>
 
   <!-- DISMISSIBLE POPOVER -->
-  <button class="btn btn-primary">
-    Toggle popover
-  </button>
+  <!--
+  To create a dismissable popover -- meaning, a popover where we can click anywhere on the page to dismiss it
+  rather than click on the popover trigger button to dismiss it -- we use data-trigger="focus", as shown below.
+  -->
+  <button id="hello" class="btn btn-primary" data-toggle="popover" data-placement="top" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perspiciatis.
+      Toggle popover" data-trigger="focus">Dismissable Popover</button>
 
   <hr>
 
   <!-- CONTROL WITH JS -->
-  <button class="btn btn-secondary">Show Popover</button>
-  <button class="btn btn-secondary">Hide Popover</button>
-  <button class="btn btn-secondary">Toggle Popover</button>
+  <!--
+  We can trigger to display a popover through an event like clicking on a specific button, as shown below. Please
+  note that the function showPopover() is defined in the <script></script> tags.
+  -->
+  <button class="btn btn-secondary" onclick="showPopover()">Show Popover</button>
+
+  <!--
+  We can trigger to hide a popover through an event like clicking on a specific button, as shown below. Please
+  note that the function hidePopover() is defined in the <script></script> tags.
+  -->
+  <button class="btn btn-secondary" onclick="hidePopover()">Hide Popover</button>
+
+  <!--
+  We can trigger to toggle a popover between display and hide through an event like clicking on a specific button,
+  as shown below. Please note that the function togglePopover() is defined in the <script></script> tags.
+  -->
+  <button class="btn btn-secondary" onclick="togglePopover()">Toggle Popover</button>
 </div>
 
 <div style="margin-top:500px;"></div>
@@ -129,6 +147,47 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
 <script>
+
+    // Initialize the popover function of Bootstrap.
+    $('[data-toggle="popover"]').popover();
+
+    function showPopover() {
+        // We gave a button an id of hello so that is what we are selecting in the code below.
+        $('#hello').popover('show');
+    }
+
+    function hidePopover() {
+        $('#hello').popover('hide');
+    }
+
+    function togglePopover() {
+        $('#hello').popover('toggle');
+    }
+
+    // Popover events
+    /* We can run a function when a popover begins to show through the 'show.bs.popover' event, as shown below.
+    */
+    $('#hello').on('show.bs.popover', function() {
+      console.log('Popover show');
+    });
+
+    /* We can run a function when a popover has shown through the 'shown.bs.popover' event, as shown below.
+    */
+    $('#hello').on('shown.bs.popover', function() {
+      console.log('Popover shown');
+    });
+
+    /* We can run a function when a popover begins to hide through the 'hide.bs.popover' event, as shown below.
+    */
+    $('#hello').on('hide.bs.popover', function() {
+      console.log('Popover hide');
+    });
+
+    /* We can run a function when a popover has hidden through the 'hidden.bs.popover' event, as shown below.
+    */
+    $('#hello').on('hidden.bs.popover', function() {
+      console.log('Popover hidden');
+    });
 
 </script>
 </body>
