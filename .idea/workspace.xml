@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_5_popovers.html" beforeDir="false" afterPath="$PROJECT_DIR$/5_5_popovers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_6_modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/5_6_modals.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,23 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="5_5_popovers.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/5_5_popovers.html">
+      <file leaf-file-name="5_6_modals.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5_6_modals.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="176" column="32" selection-start-line="176" selection-start-column="32" selection-end-line="176" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5_4_tooltips.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5_4_tooltips.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="165" column="4" selection-start-line="165" selection-start-column="4" selection-end-line="166" selection-end-column="7" />
+            <state relative-caret-position="484">
+              <caret line="147" column="81" selection-start-line="147" selection-start-column="81" selection-end-line="147" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -83,6 +71,7 @@
         <option value="$PROJECT_DIR$/5_4_tooltips.html" />
         <option value="$PROJECT_DIR$/temp.txt" />
         <option value="$PROJECT_DIR$/5_5_popovers.html" />
+        <option value="$PROJECT_DIR$/5_6_modals.html" />
       </list>
     </option>
   </component>
@@ -122,7 +111,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Interview" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JSBook" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -139,26 +128,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.5_5_popovers.html">
-    <configuration name="4_5_auto_margins_wrapping_order.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/4_5_auto_margins_wrapping_order.html" />
+  <component name="RunManager" selected="JavaScript Debug.5_6_modals.html">
     <configuration name="5_2_carousel.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/5_2_carousel.html" />
     <configuration name="5_3_collapse.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/5_3_collapse.html" />
     <configuration name="5_4_tooltips.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/5_4_tooltips.html" />
     <configuration name="5_5_popovers.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/5_5_popovers.html" />
+    <configuration name="5_6_modals.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/5_6_modals.html" />
     <list>
-      <item itemvalue="JavaScript Debug.4_5_auto_margins_wrapping_order.html" />
       <item itemvalue="JavaScript Debug.5_2_carousel.html" />
       <item itemvalue="JavaScript Debug.5_3_collapse.html" />
       <item itemvalue="JavaScript Debug.5_4_tooltips.html" />
       <item itemvalue="JavaScript Debug.5_5_popovers.html" />
+      <item itemvalue="JavaScript Debug.5_6_modals.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.5_6_modals.html" />
         <item itemvalue="JavaScript Debug.5_5_popovers.html" />
         <item itemvalue="JavaScript Debug.5_4_tooltips.html" />
         <item itemvalue="JavaScript Debug.5_3_collapse.html" />
         <item itemvalue="JavaScript Debug.5_2_carousel.html" />
-        <item itemvalue="JavaScript Debug.4_5_auto_margins_wrapping_order.html" />
       </list>
     </recent_temporary>
   </component>
@@ -186,12 +175,13 @@
       <workItem from="1529791132307" duration="9944000" />
       <workItem from="1529874366283" duration="6577000" />
       <workItem from="1529912760196" duration="3285000" />
-      <workItem from="1529958815938" duration="7239000" />
+      <workItem from="1529958815938" duration="8229000" />
+      <workItem from="1530219465506" duration="2563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87021000" />
+    <option name="totallyTimeSpent" value="90574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -206,9 +196,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989059" visible="true" weight="0.21700224" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989059" weight="0.21700224" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.14950167" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.14876957" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -225,6 +215,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/5_6_modals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2093">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/5_3_collapse.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4071">
@@ -484,13 +481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3933">
-          <caret line="171" column="7" selection-start-line="171" selection-start-column="7" selection-end-line="171" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.txt" />
     <entry file="file://$USER_HOME$/Desktop/temp.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-138">
@@ -507,11 +498,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5_5_popovers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="176" column="32" selection-start-line="176" selection-start-column="32" selection-end-line="176" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="381">
+          <caret line="185" column="74" selection-start-line="185" selection-start-column="74" selection-end-line="185" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_6_modals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="147" column="81" selection-start-line="147" selection-start-column="81" selection-end-line="147" selection-end-column="81" />
         </state>
       </provider>
     </entry>
