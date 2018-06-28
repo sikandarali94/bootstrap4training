@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7409862-b32b-4fcd-a0fb-a4d187b1619c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_6_modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/5_6_modals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_7_scrollspy.html" beforeDir="false" afterPath="$PROJECT_DIR$/5_7_scrollspy.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="5_6_modals.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/5_6_modals.html">
+      <file leaf-file-name="5_7_scrollspy.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5_7_scrollspy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="147" column="81" selection-start-line="147" selection-start-column="81" selection-end-line="147" selection-end-column="81" />
+            <state relative-caret-position="588">
+              <caret line="244" column="32" selection-start-line="244" selection-start-column="32" selection-end-line="244" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -72,6 +71,7 @@
         <option value="$PROJECT_DIR$/temp.txt" />
         <option value="$PROJECT_DIR$/5_5_popovers.html" />
         <option value="$PROJECT_DIR$/5_6_modals.html" />
+        <option value="$PROJECT_DIR$/5_7_scrollspy.html" />
       </list>
     </option>
   </component>
@@ -95,7 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,6 +106,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,26 +128,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.5_6_modals.html">
-    <configuration name="5_2_carousel.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/5_2_carousel.html" />
+  <component name="RunManager" selected="JavaScript Debug.5_7_scrollspy.html">
     <configuration name="5_3_collapse.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/5_3_collapse.html" />
     <configuration name="5_4_tooltips.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/5_4_tooltips.html" />
     <configuration name="5_5_popovers.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/5_5_popovers.html" />
     <configuration name="5_6_modals.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/5_6_modals.html" />
+    <configuration name="5_7_scrollspy.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap4/5_7_scrollspy.html" />
     <list>
-      <item itemvalue="JavaScript Debug.5_2_carousel.html" />
       <item itemvalue="JavaScript Debug.5_3_collapse.html" />
       <item itemvalue="JavaScript Debug.5_4_tooltips.html" />
       <item itemvalue="JavaScript Debug.5_5_popovers.html" />
       <item itemvalue="JavaScript Debug.5_6_modals.html" />
+      <item itemvalue="JavaScript Debug.5_7_scrollspy.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.5_7_scrollspy.html" />
         <item itemvalue="JavaScript Debug.5_6_modals.html" />
         <item itemvalue="JavaScript Debug.5_5_popovers.html" />
         <item itemvalue="JavaScript Debug.5_4_tooltips.html" />
         <item itemvalue="JavaScript Debug.5_3_collapse.html" />
-        <item itemvalue="JavaScript Debug.5_2_carousel.html" />
       </list>
     </recent_temporary>
   </component>
@@ -176,12 +176,12 @@
       <workItem from="1529874366283" duration="6577000" />
       <workItem from="1529912760196" duration="3285000" />
       <workItem from="1529958815938" duration="8229000" />
-      <workItem from="1530219465506" duration="2563000" />
+      <workItem from="1530219465506" duration="3944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90574000" />
+    <option name="totallyTimeSpent" value="91955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -196,9 +196,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989059" weight="0.21700224" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989059" visible="true" weight="0.21700224" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.14876957" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.14876957" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -505,8 +505,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5_6_modals.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="147" column="81" selection-start-line="147" selection-start-column="81" selection-end-line="147" selection-end-column="81" />
+        <state relative-caret-position="-892">
+          <caret line="99" column="100" selection-start-line="99" selection-start-column="100" selection-end-line="99" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_7_scrollspy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="244" column="32" selection-start-line="244" selection-start-column="32" selection-end-line="244" selection-end-column="32" />
         </state>
       </provider>
     </entry>
